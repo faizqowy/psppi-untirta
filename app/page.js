@@ -138,10 +138,10 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             </ul>
           </div>
 
-          <div className="grid grid-cols-2">
+          <div className="grid md:grid-cols-2 grid-cols-1 mb-14">
             <div className="p-5">
               <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
-              <Image src="/images/image5.jpg" className="object-cover w-[100%] h-[100px] border-4 mb-3" width={1920} height={1080} />
+              <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
               <p className="mb-5 text-sm">Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi sesuai standar sertifikasi dalam waktu yang mendesak.</p>
               <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">Continue Reading</a>
               <div className="mt-5">
@@ -167,8 +167,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             <div className="p-5">
               <h2 className="text-xl font-bold mb-2">Pendaftaran PSPPI 2024</h2>
               <div className="mb-5 w-[100%]">
-                <Image src="/images/image6.jpg" className="mr-3 object-cover float-left w-[30%] h-[100px] border-4 mb-3" width={1920} height={1080} />
-                <p className="float-none w-[100%] text-sm px-3">Pendaftaran Program Studi Program Profesi Insinyur 2020 sudah dibuka. Daftarkan dirimu sekarang, jangan lupa melengkapi persyaratan pendaftaran. Cek Seluruh informasi di website ini.</p>
+                <Image src="/images/article2.jpg" className="mr-3 object-cover object-top float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
+                <p className="w-[100%] text-sm px-3">Pendaftaran Program Studi Program Profesi Insinyur 2020 sudah dibuka. Daftarkan dirimu sekarang, jangan lupa melengkapi persyaratan pendaftaran. Cek Seluruh informasi di website ini.</p>
               </div>
               <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">Continue Reading</a>
               <div className="flex mt-5">
@@ -180,8 +180,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             <div className="p-5">
               <h2 className="text-xl font-bold mb-2">Perkuliahan Program Profesi Insinyur ke 3</h2>
               <div className="mb-5 w-[100%]">
-                <Image src="/images/image6.jpg" className="mr-3 object-cover float-left w-[30%] h-[100px] border-4 mb-3" width={1920} height={1080} />
-                <p className="float-none w-[100%] text-sm px-3">Pada hari Sabtu tanggal 16 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana ITS, di Gedung Pascasarjana ITS Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB hingga selesai pukul 12.00 WIB.</p>
+                <Image src="/images/article3.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
+                <p className="w-[100%] text-sm px-3">Pada hari Sabtu tanggal 16 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana ITS, di Gedung Pascasarjana ITS Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB hingga selesai pukul 12.00 WIB.</p>
               </div>
               <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">Continue Reading</a>
               <div className="flex mt-5">
@@ -206,8 +206,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             <div className="p-5">
               <h2 className="text-xl font-bold mb-2">Kuliah Mid Semester PSPPI – UNTIRTA</h2>
               <div className="mb-5 w-[100%]">
-                <Image src="/images/image6.jpg" className="mr-3 object-cover float-left w-[30%] h-[100px] border-4 mb-3" width={1920} height={1080} />
-                <p className="float-none w-[100%] text-sm px-3">Kuliah Mid Semester PPI ITS sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI ITS yang baru, kegiatan perkuliahan berjalan</p>
+                <Image src="/images/article4.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
+                <p className="w-[100%] text-sm px-3">Kuliah Mid Semester PPI ITS sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI ITS yang baru, kegiatan perkuliahan berjalan</p>
               </div>
               <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">Continue Reading</a>
               <div className="flex mt-5">

@@ -92,8 +92,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
               </div>
             </SwiperSlide>
           </Swiper>
-          <div className="mt-28 mb-28">
-            <ul className="flex flex-row justify-evenly">
+          <div className="mt-28 mb-28 flex flex-row justify-center">
+            <ul className="flex flex-col lg:flex-row lg:justify-evenly">
               <li>
                 <div className="text-center">
                   <div className="w-[200px] h-[200px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">

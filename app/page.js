@@ -27,9 +27,9 @@ export default function Home() {
             modules={[Pagination]}
             loop={true}
             >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide Satu</SwiperSlide>
+            <SwiperSlide>Slide Dua</SwiperSlide>
+            <SwiperSlide>Slide Tiga</SwiperSlide>
           </Swiper>
         </div>
         <Footer />

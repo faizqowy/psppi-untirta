@@ -17,7 +17,7 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-      <div className="w-[75%] flex flex-col justify-center">
+      <div className="w-[78%] flex flex-col justify-center">
         <Header_two />
         <div className="bg-white">
           <Swiper
@@ -93,11 +93,11 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             </SwiperSlide>
           </Swiper>
           <div className="mt-28 mb-28 flex flex-row justify-center">
-            <ul className="flex flex-col lg:flex-row lg:justify-evenly">
+            <ul className="flex flex-col lg:flex-row lg:justify-around lg:w-[100%]">
               <li>
                 <div className="text-center">
-                  <div className="w-[200px] h-[200px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
-                    <a href="#"><Image src="/images/image1.jpg" className="object-cover rounded-full w-[160px] h-[160px]" width={200} height={200} /></a>
+                  <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <a href="#"><Image src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} /></a>
                   </div>
                   <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500"><a href="#">Tentang PS PPI</a></h3>
                   <p className="mt-7 w-[200px]">Apa itu PS PPI?</p>
@@ -105,8 +105,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
               </li>
               <li>
                 <div className="text-center">
-                  <div className="w-[200px] h-[200px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
-                    <a href="#"><Image src="/images/image2.jpg" className="object-cover rounded-full w-[160px] h-[160px]" width={200} height={200} /></a>
+                  <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <a href="#"><Image src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} /></a>
                   </div>
                   <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500"><a href="#">Program Reguler</a></h3>
                   <p className="mt-7 w-[200px]">Penjelasan Program Reguler PS PPI</p>
@@ -114,8 +114,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
               </li>
               <li>
                 <div className="text-center">
-                  <div className="w-[200px] h-[200px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
-                    <a href="#"><Image src="/images/image3.png" className="object-cover rounded-full w-[160px] h-[160px]" width={200} height={200} /></a>
+                  <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <a href="#"><Image src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} /></a>
                   </div>
                   <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500"><a href="#">Program RPL</a></h3>
                   <p className="mt-7 w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
@@ -123,8 +123,8 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
               </li>
               <li>
                 <div className="text-center">
-                  <div className="w-[200px] h-[200px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
-                    <a href="#"><Image src="/images/image4.jpg" className="object-cover rounded-full w-[160px] h-[160px]" width={200} height={200} /></a>
+                  <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <a href="#"><Image src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} /></a>
                   </div>
                   <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500"><a href="#">Admisi</a></h3>
                   <p className="mt-7 w-[200px]">Penjelasan pendaftaran PS PPI</p>

@@ -13,7 +13,7 @@ export default function Home() {
         <div className="w-[78%] flex flex-col justify-center">
           <Header_two />
 
-          <section className="my-4 p-8 bg-white text-gray-600">
+          <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-6 text-sm">
               <div className="flex pt-[2.5px] ml-1">
                 <a href="/" className="text-blue-500 hover:text-[#FF0000] mr-2">

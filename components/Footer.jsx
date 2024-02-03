@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   const footerStyle = {
     background: "white",
-    padding: "40px 0",
+    padding: "40px",
     color: "rgb(51, 51, 51)",
 
     alignItems: "center",

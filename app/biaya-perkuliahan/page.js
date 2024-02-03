@@ -1,7 +1,6 @@
 import Header_one from "@/components/Header_one";
 import Header_two from "@/components/Header_two";
 import Footer from "@/components/Footer";
-
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -9,24 +8,31 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
-      <Header_one />
+       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="w-[78%] flex flex-col justify-center">
+      <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
           <Header_two />
-          <section className="my-4 p-8 bg-white text-gray-600">
+
+          <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
               </a>
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
-              <h1 className="text-sm font-bold ml-1 mt-1">Biaya Perkuliahan</h1>
+              <p>Biaya Perkuliahan</p>
             </div>
-            <h1 className="text-3xl font-bold mb-4">Biaya Perkuliahan</h1>
-            <p className="text-1xl font-bold mb-3">
+            <div>
+              <h1
+                className="text-3xl font-bold mb-4 text-black"
+                
+              >
+                Biaya Perkuliahan
+              </h1>
+              <p className="text-1xl font-bold mb-3 text-black">
                 Biaya Perkuliahan PPI ITS, sebagai berikut:
               </p>
               <ul className="list-decimal pl-10 my-4">
-                <li className="text-1xl font-bold mb-3">
+                <li className="text-1xl font-bold mb-3 text-black">
                   Registrasi Calon Mahasiswa Baru PPI ITS
                 </li>
                 <p className="mb-3">
@@ -38,7 +44,7 @@ export default function Home() {
                   .
                 </p>
 
-                <li className="text-1xl font-bold mb-3">
+                <li className="text-1xl font-bold mb-3 text-black">
                   Pendaftaran Ulang Mahasiswa Baru PSPPI ITS
                 </li>
                 <p>
@@ -55,7 +61,9 @@ export default function Home() {
                   IPP/IPM/IPU dan dibayar sendiri oleh mahasiswa ke PII.
                 </p>
               </ul>
+            </div>
           </section>
+
           <Footer />
         </div>
       </div>

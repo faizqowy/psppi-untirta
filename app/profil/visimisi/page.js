@@ -7,33 +7,33 @@ export default function Home() {
     <div style={{ backgroundColor: "white", width: "75%", margin: "auto", padding: "20px" }}>
       <Header_one />
       <Header_two />
-      <h1 className="text-2xl font-bold pb-2 mb-2 ">Visi-Misi</h1>
-      <h3 className="font-bold py-2 mb-2 text-#1d2959  ">Visi</h3>
+      <h1 className="text-2xl font-bold py-2 mb-2 ">Visi-Misi</h1>
+      <h3 className="font-bold py-2 mb-2 text-blue-700  ">Visi</h3>
       <p className="mb-2">
         Visi dari Program Studi Program Profesi Insinyur adalah menghasilkan lulusan yang beretika, menjunjung kode etik keinsinyuran dan profesional dalam bekerja di bidang keinsinyuran untuk mendukung ITS menjadi perguruan tinggi dengan
         reputasi internasional dalam ilmu pengetahuan, teknologi, dan seni, terutama yang menunjang industri dan kelautan yang berwawasan lingkungan.
       </p>
 
-      <h2 className="font-bold py-2 mb-2">Misi</h2>
+      <h2 className="font-bold py-2 mb-2 text-blue-700">Misi</h2>
       <p className="mb-2">Visi di atas dirumuskan menjadi misi dari Program Studi Program Profesi Insinyur, dengan mengacu pada Tri Dharma Perguruan Tinggi, yaitu:</p>
-      <ul className="list-decimal mb-2">
-        <li className="mb-2">
+      <ul className="list-decimal mb-2 pl-12">
+        <li className="mb-2 ">
           Menyelenggarakan pendidikan tinggi di bidang profesi insinyur untuk menghasilkan lulusan yang dapat melaksanakan praktek keinsinyuran dalam ilmu pengetahuan dan teknologi, serta mampu bersaing di tingkat nasional maupun
           internasional.
         </li>
         <li className="mb-2">Menjadi jembatan perguruan tinggi dengan dunia usaha dan industri sehingga terjalin kerja sama saling menguntungkan.</li>
       </ul>
 
-      <h2 className="font-bold py-2 mb-2">Tujuan</h2>
+      <h2 className="font-bold py-2 mb-2 text-blue-700 ">Tujuan</h2>
       <p className="mb-2">Tujuan dari Program Studi Program Profesi Insinyur adalah sebagai berikut</p>
-      <ul className="list-decimal mb-2">
+      <ul className="list-decimal mb-2 pl-12">
         <li className="mb-2">Menghasilkan insinyur yang dapat melakukan praktik keinsinyuran sesuai dengan bidang kejuruan yang ditekuni.</li>
         <li className="mb-2">Meningkatkan kualitas tenaga pendidik dalam keinsinyuran.</li>
-        <li className="mb-2">Berperan aktif dalam kegiatan keinsinyuran di Indonesia sehingga dapat meningkatkan peran serta ITS dalam pembangunan nasional.</li>
       </ul>
+      <p className="mb-2">Berperan aktif dalam kegiatan keinsinyuran di Indonesia sehingga dapat meningkatkan peran serta ITS dalam pembangunan nasional.</p>
 
-      <h2 className="font-bold py-2 mb-2">Dasar Hukum & Regulasi Program Profesi Insinyur:</h2>
-      <ul className="list-disc mb-2">
+      <h2 className="font-bold py-2 mb-2 text-blue-700">Dasar Hukum & Regulasi Program Profesi Insinyur:</h2>
+      <ul className="list-disc mb-2 pl-12">
         <li className="mb-2">Undang-Undang No. 20 Tahun 2003 tentang Sistem Pendidikan Nasional</li>
         <li className="mb-2">Undang-Undang No 12 Tahun 2012 Tentang Pendidikan Tinggi</li>
         <li className="mb-2">Undang Undang Nomor 11 Tahun 2014 Tentang Keinsinyuran</li>

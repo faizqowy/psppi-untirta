@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "white", width: "75%", margin: "auto", padding: "20px" }}>
+    <div style={{ backgroundColor: "white", width: "78%", margin: "auto", padding: "20px" }}>
       <Header_one />
       <Header_two />
 

@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "white", width: "75%", margin: "auto", padding: "20px" }}>
+    <div style={{ backgroundColor: "white", width: "78%", margin: "auto", padding: "20px" }}>
       <Header_one />
       <Header_two />
       <h1 className="text-2xl font-bold py-2 mb-2 ">Visi-Misi</h1>

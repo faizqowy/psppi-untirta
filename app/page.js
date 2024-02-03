@@ -10,9 +10,10 @@ import { IoIosPricetag } from "react-icons/io";
 
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, EffectCreative } from "swiper/modules";
+import { Pagination, EffectCreative, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 import Image from "next/image";
 
 register();
@@ -35,7 +36,7 @@ export default function Home() {
               pagination={{
                 clickable: true,
               }}
-              modules={[Pagination, EffectCreative]}
+              modules={[Pagination, EffectCreative, Navigation]}
               loop={true}
               autoplay={{
                 delay: 5000,
@@ -50,6 +51,7 @@ export default function Home() {
                   translate: ["100%", 0, 0],
                 },
               }}
+              navigation={true}
             >
               <SwiperSlide>
                 <div className="flex text-right">

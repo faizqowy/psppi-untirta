@@ -13,7 +13,7 @@ export default function Home() {
       <div className="flex flex-row justify-center">
         <div className="w-[78%] flex flex-col justify-center">
           <Header_two />
-          <section className="my-4 p-8 bg-white text-gray-600">
+          <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />

@@ -7,7 +7,9 @@ export default function Home() {
     <div style={{ backgroundColor: "white", width: "78%", margin: "auto", padding: "20px" }}>
       <Header_one />
       <Header_two />
-      <h1 className="text-2xl font-bold py-2 mb-2 ">Visi-Misi</h1>
+      <h1 className="text-3xl font-bold py-2 mb-2 " style={{ fontFamily: "Montserrat" }}>
+        Visi-Misi
+      </h1>
       <h3 className="font-bold py-2 mb-2 text-blue-700  ">Visi</h3>
       <p className="mb-2">
         Visi dari Program Studi Program Profesi Insinyur adalah menghasilkan lulusan yang beretika, menjunjung kode etik keinsinyuran dan profesional dalam bekerja di bidang keinsinyuran untuk mendukung ITS menjadi perguruan tinggi dengan

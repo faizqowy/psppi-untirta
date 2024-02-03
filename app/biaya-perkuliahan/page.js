@@ -21,7 +21,7 @@ export default function Home() {
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <p>Biaya Perkuliahan</p>
             </div>
-            <div>
+        
               <h1
                 className="text-3xl font-bold mb-4 text-black"
                 
@@ -61,7 +61,7 @@ export default function Home() {
                   IPP/IPM/IPU dan dibayar sendiri oleh mahasiswa ke PII.
                 </p>
               </ul>
-            </div>
+        
           </section>
 
           <Footer />

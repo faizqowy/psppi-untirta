@@ -9,7 +9,9 @@ export default function Home() {
       <Header_two />
 
       <div>
-        <h1 className="text-2xl font-bold py-8 mb-2">Kurikulum</h1>
+        <h1 className="text-3xl font-bold py-8 mb-2 " style={{ fontFamily: "Montserrat" }}>
+          Kurikulum
+        </h1>
 
         <h2 className="text-3xl mb-2">Capaian Pembelajaran Lulusan Minimum:</h2>
 

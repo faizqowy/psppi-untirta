@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div>
           <a href="#" style={linkStyle}>
-            Designed by Tim WebDev Iconic Laboratory
+            Built by Tim WebDev Iconic Laboratory
           </a>
         </div>
       </div>

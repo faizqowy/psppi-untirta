@@ -104,11 +104,11 @@ export default function Home() {
                       <br /> Program Profesi Insinyur
                     </h1>
                     <p className="text-sm">
-                      Program Pendidikan Reguler dan Program Rekognisi Pembelajaran Lampau (RPL), dengan demikian ITS
+                      Program Pendidikan Reguler dan Program Rekognisi Pembelajaran Lampau (RPL), dengan demikian UNTIRTA
                       <br />
-                      memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaan PSPPI ITS dilaksanakan
+                      memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaan PSPPI UNTIRTA dilaksanakan
                       <br />
-                      di bawah Rektor ITS dan Wakil Rektor ITS.
+                      di bawah Rektor UNTIRTA dan Wakil Rektor UNTIRTA.
                     </p>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function Home() {
                 <div className="mb-5 w-[100%]">
                   <Image src="/images/article3.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
                   <p className="w-[100%] text-sm px-3">
-                    Pada hari Sabtu tanggal 16 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana ITS, di Gedung Pascasarjana ITS Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB
+                    Pada hari Sabtu tanggal 16 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana UNTIRTA, di Gedung Pascasarjana UNTIRTA Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB
                     hingga selesai pukul 12.00 WIB.
                   </p>
                 </div>
@@ -336,7 +336,7 @@ export default function Home() {
                 <div className="mb-5 w-[100%]">
                   <Image src="/images/article4.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
                   <p className="w-[100%] text-sm px-3">
-                    Kuliah Mid Semester PPI ITS sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI ITS yang baru, kegiatan perkuliahan berjalan
+                    Kuliah Mid Semester PPI UNTIRTA sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI UNTIRTA yang baru, kegiatan perkuliahan berjalan
                   </p>
                 </div>
                 <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">

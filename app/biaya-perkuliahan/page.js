@@ -23,16 +23,16 @@ export default function Home() {
             </div>
         
               <h1
-                className="text-3xl font-bold mb-4 text-black" style={{fontFamily:'Montserrat'}}
+                className="text-3xl font-bold mb-4" style={{fontFamily:'Montserrat'}}
                 
               >
                 Biaya Perkuliahan
               </h1>
-              <p className="text-1xl font-bold mb-3 text-black">
+              <p className="text-1xl font-bold mb-3">
                 Biaya Perkuliahan PPI ITS, sebagai berikut:
               </p>
               <ul className="list-decimal pl-10 my-4">
-                <li className="text-1xl font-bold mb-3 text-black">
+                <li className="text-1xl font-bold mb-3">
                   Registrasi Calon Mahasiswa Baru PPI ITS
                 </li>
                 <p className="mb-3">

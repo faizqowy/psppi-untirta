@@ -3,6 +3,9 @@ import Header_two from "@/components/Header_two";
 import Footer from "@/components/Footer";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -18,10 +21,10 @@ export default function Home() {
           <p>Konsentrasi</p>
         </div>
         <div>
-          <h1 className="text-3xl font-bold   py-2 mb-2 " style={{ fontFamily: "Montserrat" }}>
+          <h1 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
             Konsentrasi Pembimbingan
           </h1>
-          <p className=" text-sm mb-4">
+          <p className=" mb-4">
             Program Studi Program Profesi Insinyur, Institut Teknologi Sepuluh Nopember (ITS) Surabaya menawarkan konsentrasi pembimbingan dari Program Studi Sarjana (S1), Sarjana Terapan (S1T) atau DIV pada cakupan disiplin teknik
             keinsinyuran berikut ini (PP 25 Tahun 2019):
           </p>

@@ -1,70 +1,40 @@
-import React from "react";
-
 import Header_one from "@/components/Header_one";
 import Header_two from "@/components/Header_two";
 import Footer from "@/components/Footer";
-import { FaHome } from "react-icons/fa";
-import { LiaGreaterThanSolid } from "react-icons/lia";
+
+import { IoHomeSharp } from "react-icons/io5";
+import { IoIosArrowForward } from "react-icons/io";
+
 
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="w-[78%] flex flex-col justify-center">
+        <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
           <Header_two />
-
-          <section className="p-8 bg-white text-gray-600">
-            <div className="flex mb-6 text-sm">
-              <div className="flex pt-[2.5px] ml-1">
-                <a href="/" className="text-blue-500 hover:text-[#FF0000] mr-2">
-                  <FaHome />
-                </a>
-                <span className="mr-2">
-                  <LiaGreaterThanSolid />
-                </span>
-              </div>
-              <p style={{ fontFamily: "Ubuntu", color: "#444444" }}>
-                Jadwal Penting Pendaftaran
-              </p>
+          <section className="my-4 p-8 bg-white text-gray-600">
+            <div className="flex mb-7">
+              <a href="/" className="hover:cursor-pointer">
+                <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
+              </a>
+              <IoIosArrowForward className="mt-2 inline-block text-sm" />
+              <h1 className="text-sm font-bold ml-1 mt-1">Jadwal Penting Pendaftaran</h1>
             </div>
+            <h1 className="text-3xl font-bold mb-4">Jadwal Penting Pendaftaran</h1>
+            <p className="font-bold mb-3">Pendaftaran:</p>
 
-            <h1
-              className="text-3xl font-bold mb-6"
-              style={{
-                fontSize: "25px",
-                fontFamily: "Yanone Kaffeesatz Regular",
-                color: "#444444",
-              }}
-            >
-              Jadwal Penting Pendaftaran
-            </h1>
-
-            <div style={{ fontFamily: "Ubuntu" }}>
-              <p className="mb-3 font-bold">Pendaftaran:</p>
-
-              <p className="mb-3">
+            <p className="mb-3">
                 Pendaftaran dilaksanakan pada 19 Juni – 12 Juli 2019 yang
                 meliputi:
-              </p>
-              <ul className="list-decimal pl-10 my-4">
-                <li
-                  style={{
-                    fontFamily: "Ubuntu",
-                    color: "#444444",
-                    fontSize: "17px",
-                  }}
-                >
+            </p>
+
+            <ul className="list-decimal pl-10 my-4">
+                <li>
                   Pembayaran biaya pendaftaran sebesar Rp 1.000.000,00 di
                   bank-bank yang ditunjuk
                 </li>
-                <li
-                  style={{
-                    fontFamily: "Ubuntu",
-                    color: "#444444",
-                    fontSize: "17px",
-                  }}
-                >
+                <li>
                   Calon mahasiswa akan mendapatkan{" "}
                   <span style={{ fontStyle: "italic" }}>username</span> dan{" "}
                   <span style={{ fontStyle: "italic" }}>password</span> untuk
@@ -85,7 +55,6 @@ export default function Home() {
 
               <table
                 className="border-collapse w-full mb-3"
-                style={{ fontStyle: "Ubuntu" }}
               >
                 <tbody>
                   {/* Baris pertama */}
@@ -117,6 +86,7 @@ export default function Home() {
                 </tbody>
               </table>
 
+
               <p className="mu-3 mb-3 font-bold">Pengumuman Hasil Seleksi:</p>
 
               <p className="mu-3 mb-3">
@@ -139,9 +109,7 @@ export default function Home() {
               </p>
 
               <table
-                className="border-collapse w-full mb-3"
-                style={{ fontStyle: "Ubuntu" }}
-              >
+                className="border-collapse w-full mb-3">
                 <tbody>
                   {/* Baris pertama */}
                   <tr>
@@ -229,11 +197,10 @@ export default function Home() {
                 jika mahasiswa mengajukan dan lolos IPP/IPM/IPU dan dibayar
                 sendiri oleh mahasiswa ke PII.
               </p>
-            </div>
           </section>
+          <Footer/>
         </div>
       </div>
-      <Footer />
     </main>
   );
 }

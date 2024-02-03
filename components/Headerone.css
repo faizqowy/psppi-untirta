@@ -1,0 +1,7 @@
+.searchButton:hover.searchInput {
+  display: block;
+}
+
+.searchInput{
+  display: none;
+}

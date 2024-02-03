@@ -2,6 +2,7 @@
 import Header_one from "@/components/Header_one";
 import Header_two from "@/components/Header_two";
 import Footer from "@/components/Footer";
+import { Nunito_Sans } from "next/font/google";
 
 import { FaFolderOpen } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
@@ -16,15 +17,17 @@ import Image from "next/image";
 
 register();
 
+const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
+
 export default function Home() {
 
   return (
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-      <div className="w-[78%] flex flex-col justify-center">
+      <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
         <Header_two />
-        <div className="bg-white">
+        <div className={"bg-white " + nunitoSans.className}>
           <Swiper
             className="swiper"
             effect="creative"
@@ -138,6 +141,7 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
             </ul>
           </div>
 
+          {/* Bagian Postingan */}
           <div className="grid md:grid-cols-2 grid-cols-1 mb-14">
             <div className="p-5">
               <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
@@ -225,8 +229,9 @@ memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaa
                   </p>
               </div>
             </div>
-
+            
           </div>
+          {/* Akhir Postingan */}
         </div>
         <Footer />
       </div>

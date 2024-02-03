@@ -22,7 +22,7 @@ export default function Home() {
               </h1>
             </div>
 
-            <h1 className="text-3xl font-bold mb-4">
+            <h1 className="text-3xl font-bold mb-4" style={{fontFamily:'Moserrat'}}>
               Jadwal Penting Pendaftaran
             </h1>
             <p className="font-bold mb-3">Pendaftaran:</p>

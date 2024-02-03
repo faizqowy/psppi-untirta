@@ -44,7 +44,7 @@ export default function Home() {
                   .
                 </p>
 
-                <li className="text-1xl font-bold mb-3 text-black">
+                <li className="text-1xl font-bold mb-3">
                   Pendaftaran Ulang Mahasiswa Baru PSPPI ITS
                 </li>
                 <p>

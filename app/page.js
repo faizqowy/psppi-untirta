@@ -2,6 +2,7 @@
 import Header_one from "@/components/Header_one";
 import Header_two from "@/components/Header_two";
 import Footer from "@/components/Footer";
+import { Nunito_Sans } from "next/font/google";
 
 import { FaFolderOpen } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
@@ -16,37 +17,39 @@ import Image from "next/image";
 
 register();
 
+const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
+
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="w-[78%] flex flex-col justify-center">
-          <Header_two />
-          <div className="bg-white">
-            <Swiper
-              className="swiper"
-              effect="creative"
-              direction={"horizontal"}
-              spaceBetween={50}
-              pagination={{
-                clickable: true,
-              }}
-              modules={[Pagination, EffectCreative]}
-              loop={true}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-              }}
-              creativeEffect={{
-                prev: {
-                  shadow: true,
-                  translate: ["-20%", 0, -1],
-                },
-                next: {
-                  translate: ["100%", 0, 0],
-                },
-              }}
+      <div className="w-[78%] flex flex-col justify-center">
+        <Header_two />
+        <div className="bg-white">
+          <Swiper
+            className="swiper"
+            effect="creative"
+            direction={'horizontal'}
+            spaceBetween={50}
+            pagination={{
+                "clickable": true
+            }}
+            modules={[Pagination, EffectCreative]}
+            loop={true}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            creativeEffect={{
+              prev: {
+                shadow: true,
+                translate: ['-20%', 0, -1],
+              },
+              next: {
+                translate: ['100%', 0, 0],
+              },
+            }}
             >
               <SwiperSlide>
                 <div className="flex text-right">
@@ -181,68 +184,31 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="grid md:grid-cols-2 grid-cols-1 mb-14">
-              <div className="p-5">
-                <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
-                <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
-                <p className="mb-5 text-sm">
-                  Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
-                  Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup
-                  dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
-                  sesuai standar sertifikasi dalam waktu yang mendesak.
-                </p>
-                <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
-                  Continue Reading
-                </a>
-                <div className="mt-5">
-                  <div className="flex">
-                    <FaClock className="mt-[2px] mr-2" />
-                    <p className="text-sm mr-7">12 February 2024</p>
-                    <FaFolderOpen className="mt-[2px] mr-2" />
-                    <p className="text-sm">
-                      <a href="#" className="text-blue-950">
-                        info
-                      </a>
-                    </p>
-                  </div>
-                  <div className="flex mt-3">
-                    <IoIosPricetag className="mt-[2px] mr-1" size={30} />
-                    <p className="text-sm mr-7">
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        prodi profesi insinyur
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Profesi Insinyur
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PS PPI
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PS PPI - Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PSPPI
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PSPPI-Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Cilegon
-                      </a>
-                    </p>
-                  </div>
+          <div className="grid md:grid-cols-2 grid-cols-1 mb-14">
+            <div className="p-5">
+              <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
+              <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
+              <p className="mb-5 text-sm">Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi sesuai standar sertifikasi dalam waktu yang mendesak.</p>
+              <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">Continue Reading</a>
+              <div className="mt-5">
+                <div className="flex">
+                  <FaClock className="mt-[2px] mr-2"/><p className="text-sm mr-7">12 February 2024</p>
+                  <FaFolderOpen className="mt-[2px] mr-2"/><p className="text-sm"><a href="#" className="text-blue-950">info</a></p>
+                </div>
+                <div className="flex mt-3">
+                  <IoIosPricetag className="mt-[2px] mr-1" size={30}/><p className="text-sm mr-7">
+                    <a href="#" className="text-blue-800 hover:text-blue-950">prodi profesi insinyur</a>, 
+                    <a href="#" className="text-blue-800 hover:text-blue-950">Untirta</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">Profesi Insinyur</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">PS PPI</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">PS PPI - Untirta</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">PSPPI</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">PSPPI-Untirta</a>,
+                    <a href="#" className="text-blue-800 hover:text-blue-950">Cilegon</a>
+                  </p>
                 </div>
               </div>
+            </div>
 
               <div className="p-5">
                 <h2 className="text-xl font-bold mb-2">Pendaftaran PSPPI 2024</h2>
@@ -373,9 +339,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
           </div>
-          <Footer />
         </div>
+        <Footer />
+      </div>
       </div>
     </main>
   );

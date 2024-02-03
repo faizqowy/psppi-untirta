@@ -1,4 +1,5 @@
 import { FaSearch } from 'react-icons/fa';
+import './Headerone.css';
 
 export default function Header_one() {
     return (
@@ -9,9 +10,10 @@ export default function Header_one() {
                         <a href="https://untirta.ac.id" target="_blank" className="hover:text-white">
                             UNTIRTA.ac.id
                         </a>
-                        <span className="pt-0.5 ml-4 cursor-pointer hover:text-white">
+                        <div className="flex searchButton pt-0.5 ml-4 cursor-pointer hover:text-white">
+                            <input type="text " className="searchInput bg-transparent border-b border-gray-300 text-white focus:outline-none focus:border-white" placeholder="Cari di sini" />
                             <FaSearch />
-                        </span>
+                        </div>
                     </div>
                 </div>
             </div>

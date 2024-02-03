@@ -13,8 +13,8 @@ export default function Home() {
             <h1 className="text-2xl font-bold py-2 mb-2 ">Visi-Misi</h1>
             <h3 className="font-bold py-2 mb-2 text-blue-700  ">Visi</h3>
             <p className="mb-2">
-              Visi dari Program Studi Program Profesi Insinyur adalah menghasilkan lulusan yang beretika, menjunjung kode etik keinsinyuran dan profesional dalam bekerja di bidang keinsinyuran untuk mendukung ITS menjadi perguruan tinggi dengan
-              reputasi internasional dalam ilmu pengetahuan, teknologi, dan seni, terutama yang menunjang industri dan kelautan yang berwawasan lingkungan.
+              Visi dari Program Studi Program Profesi Insinyur adalah menghasilkan lulusan yang beretika, menjunjung kode etik keinsinyuran dan profesional dalam bekerja di bidang keinsinyuran untuk mendukung ITS menjadi perguruan tinggi
+              dengan reputasi internasional dalam ilmu pengetahuan, teknologi, dan seni, terutama yang menunjang industri dan kelautan yang berwawasan lingkungan.
             </p>
 
             <h2 className="font-bold py-2 mb-2 text-blue-700">Misi</h2>
@@ -56,4 +56,3 @@ export default function Home() {
     </main>
   );
 }
-

@@ -9,7 +9,9 @@ export default function Home() {
       <Header_two />
 
       <div>
-        <h2 className="text-2xl font-bold py-2 mb-2 ">Manajemen dan Dosen</h2>
+        <h2 className="text-3xl font-bold py-2 mb-2 " style={{ fontFamily: "Montserrat" }}>
+          Manajemen dan Dosen
+        </h2>
 
         <strong className="mb-2">MANAJEMEN PROGRAM STUDI PROGRAM PROFESI INSINYUR</strong>
         <p>

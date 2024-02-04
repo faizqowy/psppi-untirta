@@ -3,9 +3,9 @@ import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
-import Header_one from "../components/Header_one";
-import Header_two from "../components/Header_two";
-import Footer from "../components/Footer";
+import Header_one from "../../components/Header_one";
+import Header_two from "../../components/Header_two";
+import Footer from "../../components/Footer";
 
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
@@ -31,7 +31,7 @@ export default function Post() {
 
 
   if(post?.data === undefined) {
-    router.push("/post?postId=1");
+    router.push("/post/?postId=1");
   }else{
   return (
     <main className="flex flex-col justify-center w-[100%]">
@@ -59,10 +59,10 @@ export default function Post() {
             <div className="mt-16 border-y-[1px] border-gray-300 w-12 justify-evenly">
               <p className="text-sm text-nowrap">Share this:</p>
               <div className="flex mt-2 gap-2 mb-2 gap-y-4">
-                <TwitterShareButton url={"http://psppi-untirta.vercel.app" + pathName + "?postId=" + val} title={post?.data[val-1].title} className="m-3">
+                <TwitterShareButton url={"http://psppi-untirta.vercel.app" + pathName + "/?postId=" + val} title={post?.data[val-1].title} className="m-3">
                   <TwitterIcon size={28} round={true} />
                 </TwitterShareButton>
-                <FacebookShareButton url={"http://psppi-untirta.vercel.app" + pathName + "?postId=" + val} quote={post?.data[val-1].title} className="m-3">
+                <FacebookShareButton url={"http://psppi-untirta.vercel.app" + pathName + "/?postId=" + val} quote={post?.data[val-1].title} className="m-3">
                   <FacebookIcon size={28} round={true} />
                 </FacebookShareButton>
               </div>
@@ -75,7 +75,7 @@ export default function Post() {
                   if(index !== val-1){
                     return (
                      <div key={index}>
-                        <a href={"/post?postId=" + (index+1)} className="hover:cursor-pointer hover:text-blue-400 duration-200">{item.title}</a>
+                        <a href={"/post/?postId=" + (index+1)} className="hover:cursor-pointer hover:text-blue-400 duration-200">{item.title}</a>
                         <p>{item.date}</p>
                         {item.tags.map((tag, index) => {
                           return (
@@ -94,7 +94,7 @@ export default function Post() {
                 {post?.data[val-2] ? 
                 <div className="flex items-center  hover:text-blue-400 duration-200 gap-2">
                   <FaArrowLeft className="text-lg hover:fill-blue-400" />
-                  <a href={"/post?postId=" + (val-1)} className="hover:cursor-pointer">{post?.data[val-2].title}</a>
+                  <a href={"/post/?postId=" + (val-1)} className="hover:cursor-pointer">{post?.data[val-2].title}</a>
                 </div>
                 :
                 <div className="text-white">.</div>
@@ -102,7 +102,7 @@ export default function Post() {
                 
                 {post?.data[val] ?
                 <div className="flex items-center hover:text-blue-400 duration-200 gap-2">
-                  <a href={"/post?postId=" + (parseInt(val)+1)} className="hover:cursor-pointer">{post?.data[val].title}</a>
+                  <a href={"/post/?postId=" + (parseInt(val)+1)} className="hover:cursor-pointer">{post?.data[val].title}</a>
                   <FaArrowRight className="text-lg hover:fill-blue-400" />
                 </div>
                 :

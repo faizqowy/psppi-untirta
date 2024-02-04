@@ -1,6 +1,6 @@
-import Header_one from "@/app/components/Header_one";
-import Header_two from "@/app/components/Header_two";
-import Footer from "@/app/components/Footer";
+import Header_one from "@/app/components/Header_one.jsx";
+import Header_two from "@/app/components/Header_two.jsx";
+import Footer from "@/app/components/Footer.jsx";
 
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";

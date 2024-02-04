@@ -29,7 +29,8 @@ export default function Post() {
       });
   }, []);
 
-  if(post?.data === null) {
+
+  if(post?.data === undefined) {
     router.push("/post?postId=1");
   }else{
   return (

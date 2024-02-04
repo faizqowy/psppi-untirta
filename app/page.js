@@ -52,6 +52,8 @@ export default function Home() {
                 },
               }}
               navigation={true}
+              cssMode={true}
+              height={500}
             >
               <SwiperSlide>
                 <div className="flex text-right">

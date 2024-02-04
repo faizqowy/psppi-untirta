@@ -30,7 +30,7 @@ export default function Post() {
   }, []);
 
 
-  if(post?.data === undefined) {
+  if(post?.data.length < val) {
     router.push("/post?postId=1");
   }else{
   return (

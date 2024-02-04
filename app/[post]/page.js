@@ -73,7 +73,7 @@ export default function Post() {
                 {post?.data.map((item, index) => {
                   if(index !== val-1){
                     return (
-                     <div>
+                     <div key={index}>
                         <a href={"/post?postId=" + (index+1)} className="hover:cursor-pointer hover:text-blue-400 duration-200">{item.title}</a>
                         <p>{item.date}</p>
                         {item.tags.map((tag, index) => {

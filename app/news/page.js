@@ -29,7 +29,7 @@ export default function Home() {
             <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
           </a>
           <IoIosArrowForward className="mt-2 inline-block text-sm" />
-          <p>Archive by category "news"</p>
+          <p>Archive by category &quot;news&quot;</p>
         </div>
 
         <header className=" page-header" style={headerStyle}>

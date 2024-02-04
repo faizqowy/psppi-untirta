@@ -1,7 +1,7 @@
 "use client";
-import Header_one from "@/app/components/Header_one";
-import Header_two from "@/app/components/Header_two";
-import Footer from "@/app/components/Footer";
+import Header_one from "./components/Header_one";
+import Header_two from "./components/Header_two";
+import Footer from "./components/Footer";
 import { Nunito_Sans } from "next/font/google";
 
 import { FaFolderOpen } from "react-icons/fa6";

@@ -91,7 +91,10 @@ export default function Home() {
               <li>Foto berwarna 4×6 cm sebanyak 3 (tiga) lembar.</li>
               <li>Bukti pelunasan biaya pendaftaran program.</li>
             </ul>
-
+            <p>
+              Surat pernyataan kesediaan mengikuti PSPPI ITS dan Surat
+              pernyataan keaslian dokumen.
+            </p>
           </section>
           <Footer />
         </div>

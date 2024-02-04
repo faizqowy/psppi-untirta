@@ -91,7 +91,6 @@ export default function Home() {
               <li>Foto berwarna 4×6 cm sebanyak 3 (tiga) lembar.</li>
               <li>Bukti pelunasan biaya pendaftaran program.</li>
             </ul>
-
           </section>
           <Footer />
         </div>

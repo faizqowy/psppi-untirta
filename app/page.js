@@ -52,7 +52,6 @@ export default function Home() {
                 },
               }}
               navigation={true}
-              cssMode={true}
               height={500}
             >
               <SwiperSlide>
@@ -199,7 +198,7 @@ export default function Home() {
                   dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
                   sesuai standar sertifikasi dalam waktu yang mendesak.
                 </p>
-                <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                <a href="/post?postId=1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                   Continue Reading
                 </a>
                 <div className="mt-5">
@@ -260,7 +259,7 @@ export default function Home() {
                     Pendaftaran Program Studi Program Profesi Insinyur 2020 sudah dibuka. Daftarkan dirimu sekarang, jangan lupa melengkapi persyaratan pendaftaran. Cek Seluruh informasi di website ini.
                   </p>
                 </div>
-                <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                <a href="/post?postId=2" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                   Continue Reading
                 </a>
                 <div className="flex mt-5">
@@ -284,7 +283,7 @@ export default function Home() {
                     hingga selesai pukul 12.00 WIB.
                   </p>
                 </div>
-                <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                <a href="/post?postId=3" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                   Continue Reading
                 </a>
                 <div className="flex mt-5">
@@ -341,7 +340,7 @@ export default function Home() {
                     Kuliah Mid Semester PPI UNTIRTA sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI UNTIRTA yang baru, kegiatan perkuliahan berjalan
                   </p>
                 </div>
-                <a href="#" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                <a href="/post?postId=4" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                   Continue Reading
                 </a>
                 <div className="flex mt-5">

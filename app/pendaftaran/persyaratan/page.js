@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="w-[78%] flex flex-col justify-center">
+        <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
           <Header_two />
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
@@ -18,16 +18,16 @@ export default function Home() {
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
               </a>
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
-              <h1 className="text-sm font-bold ml-1 mt-1">Jadwal Kegiatan</h1>
+              <h1 className="text-sm font-bold ml-1 mt-1">Persyaratan Pendaftaran</h1>
             </div>
-            <h1 className="text-3xl font-bold mb-4">Persyaratan Pendaftaran</h1>
+            <h1 className="text-3xl font-bold mb-4" style={{fontFamily:'Montserrat'}}>Persyaratan Pendaftaran</h1>
 
-            <hr class="lg:w-[100%] w-[100%] h-0.5 mx-auto my-2 bg-gray-50 border border-gray-0 rounded md:my-6 dark:bg-gray-300" />
+            <hr className="mx-auto my-2 md:my-6 dark:bg-gray-300" />
 
             <blockquote className="text-xl italic">
               <p class="text-justify">
-                Persyaratan pendaftaran juga dapat di lihat pada website
-                <strong>smits.its.ac.id</strong>
+                " Persyaratan pendaftaran juga dapat di lihat pada website 
+                <strong> smits.its.ac.id</strong>
               </p>
             </blockquote>
             <hr class="lg:w-[100%] w-[100%] h-0.5 bg-gray-50 border border-gray-0 rounded my-6 dark:bg-gray-300 mb-0" />
@@ -91,6 +91,10 @@ export default function Home() {
               <li>Foto berwarna 4×6 cm sebanyak 3 (tiga) lembar.</li>
               <li>Bukti pelunasan biaya pendaftaran program.</li>
             </ul>
+            <p>
+              Surat pernyataan kesediaan mengikuti PSPPI ITS dan Surat
+              pernyataan keaslian dokumen.
+            </p>
           </section>
           <Footer />
         </div>

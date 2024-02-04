@@ -20,6 +20,7 @@ export default function Post() {
   const pathName = usePathname();
   const val = searchParams.get("postId")
   const router = useRouter();
+  console.log(val);
   
   useEffect(() => {
     fetch(`/local-data/data.json`)
@@ -31,7 +32,7 @@ export default function Post() {
 
 
   if(post?.data === undefined) {
-    router.push("/post/?postId=1");
+    router.push("/post/post?postId=1");
   }else{
   return (
     <main className="flex flex-col justify-center w-[100%]">

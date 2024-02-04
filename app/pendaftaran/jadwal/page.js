@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="w-[78%] flex flex-col justify-center">
+        <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
           <Header_two />
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
@@ -22,12 +22,12 @@ export default function Home() {
               </h1>
             </div>
 
-            <h1 className="text-3xl font-bold mb-4" style={{fontFamily:'Moserrat'}}>
+            <h1 className="text-3xl font-bold mb-2" style={{fontFamily:'Montserrat'}}>
               Jadwal Penting Pendaftaran
             </h1>
-            <p className="font-bold mb-3">Pendaftaran:</p>
+            <p className="font-bold mb-2">Pendaftaran:</p>
 
-            <p className="mb-3">
+            <p className="mb-2">
               Pendaftaran dilaksanakan pada 19 Juni – 12 Juli 2019 yang
               meliputi:
             </p>
@@ -47,16 +47,16 @@ export default function Home() {
               </li>
             </ul>
 
-            <p className="mu-3 mb-3 font-bold">
+            <p className="mb-2 font-bold">
               Pengumuman peserta Tes Wawancara mulai tanggal 17 Juli 2019:
             </p>
-            <p className="mu-3 mb-3 font-bold">Pelaksanaan Tes Wawancara:</p>
-            <p className="mu-3 mb-3">
+            <p className="mb- font-bold">Pelaksanaan Tes Wawancara:</p>
+            <p className="mb-2">
               Pelaksanaan Tes Wawancara tiap calon mahasiswa dilaksanakan 1 hari
               kurang lebih selama 30 menit:
             </p>
 
-            <table className="border-collapse w-full mb-3">
+            <table className="border-collapse w-full mb-2">
               <tbody>
                 {/* Baris pertama */}
                 <tr>
@@ -87,9 +87,9 @@ export default function Home() {
               </tbody>
             </table>
 
-            <p className="mu-3 mb-3 font-bold">Pengumuman Hasil Seleksi:</p>
+            <p className="mb-2 font-bold">Pengumuman Hasil Seleksi:</p>
 
-            <p className="mu-3 mb-3">
+            <p className="mb-2">
               Hasil seleksi diumumkan pada tanggal 31 Juli 2019 di Website
               Seleksi Masuk ITS (SMITS){" "}
               <a href="http://smits.its.ac.id" style={{ color: "blue" }}>
@@ -97,18 +97,18 @@ export default function Home() {
               </a>
             </p>
 
-            <p className="mu-3 mb-3 ">Melakukan Pembayaran SPP</p>
+            <p className="mb-2 ">Melakukan Pembayaran SPP</p>
 
-            <p className="mu-3 mb-3 font-bold">
+            <p className="mb-2 font-bold">
               Pendaftaran Ulang dan Penerimaan Mahasiswa
             </p>
 
-            <p className="mu-3 mb-3">
+            <p className="mb-2">
               Peserta yang dinyatakan lulus ujian masuk diwajibkan melakukan
               kegiatan berikut:
             </p>
 
-            <table className="border-collapse w-full mb-3">
+            <table className="border-collapse w-full mb-2">
               <tbody>
                 {/* Baris pertama */}
                 <tr>
@@ -180,9 +180,9 @@ export default function Home() {
               </tbody>
             </table>
 
-            <p className="mu-3 mb-3 font-bold"> Biaya Pendidikan</p>
+            <p className="mb-2 font-bold"> Biaya Pendidikan</p>
 
-            <p className="mu-3 mb-3">
+            <p className="mb-3">
               Setelah dinyatakan diterima, calon mahasiswa diwajibkan membayar
               biaya Program Profesi Insinyur (PPI) sebesar Rp. 12.500.000,- (dua
               belas juta lima ratus ribu rupiah). Biaya PPI sudah termasuk biaya

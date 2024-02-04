@@ -126,7 +126,7 @@ export default function Home() {
             <div className="mb-5 w-[100%]">
               <Image src="/images/article3.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
               <p className="w-[100%] text-sm px-3">
-                Pada hari Minggu tanggal 2 Desember 2024 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana UNTIRTA, di Gedung Pascasarjana UNTIRTA Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB
+                Pada hari Minggu tanggal 4 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana UNTIRTA, di Gedung Pascasarjana UNTIRTA Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB
                 hingga selesai pukul 12.00 WIB.
               </p>
             </div>

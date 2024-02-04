@@ -19,6 +19,7 @@ export default function Post() {
   const searchParams = useSearchParams();
   const pathName = usePathname();
   const val = searchParams.get("postId")
+  const router = useRouter();
   
   useEffect(() => {
     fetch(`/local-data/data.json`)
@@ -28,10 +29,7 @@ export default function Post() {
       });
   }, []);
 
-  const isData = post?.data;
-
-  if(isData === null) {
-    const router = useRouter();
+  if(post?.data === null) {
     router.push("/post?postId=1");
   }else{
   return (

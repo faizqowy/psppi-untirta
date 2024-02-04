@@ -26,7 +26,7 @@ export default function Home() {
 
             <blockquote className="text-xl italic">
               <p class="text-justify">
-                "Persyaratan pendaftaran juga dapat di lihat pada website{" "}
+                Persyaratan pendaftaran juga dapat di lihat pada website
                 <strong>smits.its.ac.id</strong>
               </p>
             </blockquote>

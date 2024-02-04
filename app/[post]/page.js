@@ -28,6 +28,8 @@ export default function Post() {
       });
   }, []);
 
+  const isData = post?.data;
+
   if(post?.data === null) {
     const router = useRouter();
     router.push("/post?postId=1");

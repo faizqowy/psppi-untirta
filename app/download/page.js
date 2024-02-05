@@ -1,6 +1,6 @@
-import Header_one from "@/components/Header_one";
-import Header_two from "@/components/Header_two";
-import Footer from "@/components/Footer";
+import Header_one from "../components/Header_one";
+import Header_two from "../components/Header_two";
+import Footer from "../components/Footer";
 
 import { Montserrat } from "next/font/google";
 

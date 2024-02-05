@@ -18,15 +18,22 @@ export default function Home() {
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
               </a>
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
-              <h1 className="text-sm font-bold ml-1 mt-1">Persyaratan Pendaftaran</h1>
+              <h1 className="text-sm font-bold ml-1 mt-1">
+                Persyaratan Pendaftaran
+              </h1>
             </div>
-            <h1 className="text-3xl font-bold mb-4" style={{fontFamily:'Montserrat'}}>Persyaratan Pendaftaran</h1>
+            <h1
+              className="text-3xl font-bold mb-4"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Persyaratan Pendaftaran
+            </h1>
 
             <hr className="mx-auto my-2 md:my-6 dark:bg-gray-300" />
 
             <blockquote className="text-xl italic">
               <p class="text-justify">
-                " Persyaratan pendaftaran juga dapat di lihat pada website 
+                Persyaratan pendaftaran juga dapat di lihat pada website
                 <strong> smits.its.ac.id</strong>
               </p>
             </blockquote>

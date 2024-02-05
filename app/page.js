@@ -296,13 +296,13 @@ export default function Home() {
                             if(index === item.tags.length-1){
                               return (
                                 <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
-                                  {tag},
+                                  {tag}
                                 </a>
                               )
                             }else{
                             return (
                               <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
-                                {tag}
+                                {tag},
                               </a>
                             )}
                           })}

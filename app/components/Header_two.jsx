@@ -1,5 +1,3 @@
-import { FaSearch } from "react-icons/fa";
-import "./Headerone.css";
 import Image from "next/image";
 
 export default function Header_two() {

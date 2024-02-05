@@ -271,7 +271,7 @@ export default function Home() {
                 return(
                   <div key={index} className="p-5">
                     <h2 className="text-xl font-bold border-b border-black mb-2">{item.title}</h2>
-                    <Image src={item.img} className="object-cover w-[100%] h-[300px] border-4 mb-3" width={1920} height={1080} />
+                    <Image src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
                     <p className="mb-5 text-sm">
                       {item.content.slice(0, 200) + "..."}
                     </p>

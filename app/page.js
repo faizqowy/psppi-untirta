@@ -293,11 +293,18 @@ export default function Home() {
                         <IoIosPricetag className="mt-[2px] mr-1" size={30} />
                         <p className="text-sm mr-7">
                           {item.tags.map((tag, index) => {
+                            if(index === item.tags.length-1){
+                              return (
+                                <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
+                                  {tag},
+                                </a>
+                              )
+                            }else{
                             return (
                               <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
                                 {tag}
                               </a>
-                            )
+                            )}
                           })}
                         </p>
                       </div>

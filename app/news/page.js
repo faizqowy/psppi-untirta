@@ -33,7 +33,7 @@ export default function Home() {
         </div>
 
         <header className=" page-header" style={headerStyle}>
-          <h1 className="page-title text-base leading-normal  font-bold  border-l-4 border-solid border-transparent pl-2 pt-1 pb-1 pr-4 bg-gray-100 border-red-400 ">Category: news</h1>
+          <h1 className="page-title text-base leading-normal  font-bold  border-l-4 border-solid  pl-2 pt-1 pb-1 pr-4 bg-gray-100 border-red-400 ">Category: news</h1>
         </header>
 
         {/* Bagian Postingan */}

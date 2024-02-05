@@ -20,15 +20,15 @@ export default function Home() {
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-6 text-sm">
               <div className="flex pt-[2px] ml-1">
-                <a href="/" className="text-blue-500 hover:text-[#FF0000] mr-2">
+                <a href="/" className="text-blue-500 hover:text-red-600 mr-2">
                   <FaHome />
                 </a>
-                  <IoIosArrowForward className="mr-2" />
+                <IoIosArrowForward className="mr-2" />
               </div>
               <p className="font-bold">Sistem Perkuliahan</p>
             </div>
 
-            <h1 className={"text-3xl font-bold mb-4 " + montserrat.className }>
+            <h1 className={"text-3xl font-bold mb-4 " + montserrat.className}>
               Sistem Perkuliahan
             </h1>
             <p>

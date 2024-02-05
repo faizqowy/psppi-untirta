@@ -7,12 +7,10 @@ export default function Header_two() {
     <div className="bg-transparent shadow py-3">
       <div className="flex justify-center">
         <div className="lg:w-[100%] w-[100%] lg:mr-0 mr-4 flex flex-col lg:flex-row">
-          <div 
+          <div className="text-2xl font-bold"
             style={{
-              fontSize: "20px",
-              fontWeight: "bold",
-              textAlign: "left", // Mengubah properti textAlign menjadi "left"
-              margin: "auto", // Menambah properti margin
+              textAlign: "left",
+              margin: "auto", 
             }}
           >
             <p>PROGRAM STUDI</p>

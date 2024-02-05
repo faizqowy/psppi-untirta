@@ -205,7 +205,7 @@ export default function Home() {
               {post?.data.map((item, index) => {
                 if(index === 0){
                   return(
-                    <div className="p-5">
+                    <div key={index} className="p-5">
                       <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
                       <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
                       <p className="mb-5 text-sm">
@@ -269,7 +269,7 @@ export default function Home() {
                   )
                 }else{
                 return(
-                  <div className="p-5">
+                  <div key={index} className="p-5">
                     <h2 className="text-xl font-bold border-b border-black mb-2">{item.title}</h2>
                     <Image src={item.img} className="object-cover w-[100%] h-[300px] border-4 mb-3" width={1920} height={1080} />
                     <p className="mb-5 text-sm">

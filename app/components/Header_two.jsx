@@ -5,8 +5,7 @@ export default function Header_two() {
     <div className="bg-transparent shadow py-3">
       <div className="flex justify-center">
         <div className="lg:w-[100%] w-[100%] lg:mr-0 mr-4 flex flex-col lg:flex-row justify-between">
-          <div className="flex justify-start items-center">
-               <div style={{ display: "flex", alignItems: "center" }}>
+        <div style={{ display: "flex", alignItems: "center" }}>
               <a href="/">
                 <Image
                   src="/images/psppi.jpg"
@@ -18,8 +17,10 @@ export default function Header_two() {
                 />
               </a>
             </div>
+          <div className="flex justify-center">
+
             <div className="text-2xl font-bold ml-4">
-                     <p>PROGRAM STUDI</p>
+              <p>PROGRAM STUDI</p>
               <p>PROGRAM PROFESI INSINYUR</p>
               <p>UNIVERSITAS SULTAN AGENG TIRTAYASA</p>
             </div>

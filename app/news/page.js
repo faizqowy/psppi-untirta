@@ -8,6 +8,8 @@ import { IoIosPricetag } from "react-icons/io";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 
+import { Suspense } from "react";
+
 const headerStyle = {
   display: "block",
   float: "none",
@@ -22,7 +24,9 @@ export default function Home() {
   return (
     <div style={{ backgroundColor: "white", width: "78%", margin: "auto", padding: "20px" }}>
       <Header_one />
+      <Suspense>
       <Header_two />
+      </Suspense>
       <section className="p-8 bg-white text-gray-600">
         <div className="flex mb-7">
           <a href="/" className="hover:cursor-pointer">

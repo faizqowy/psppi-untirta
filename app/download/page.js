@@ -1,6 +1,7 @@
 import Header_one from "../components/Header_one";
 import Header_two from "../components/Header_two";
 import Footer from "../components/Footer";
+import { Suspense } from "react";
 
 import { Montserrat } from "next/font/google";
 
@@ -15,7 +16,9 @@ export default function Home() {
       <Header_one />
       <div className="flex flex-row justify-center">
         <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
 
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-6 text-sm">

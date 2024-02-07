@@ -12,7 +12,7 @@ import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCreative, Navigation } from "swiper/modules";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -39,7 +39,9 @@ export default function Home() {
       <Header_one />
       <div className="flex flex-row justify-center">
         <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
           <div className={"bg-white " + nunitoSans.className}>
             <Swiper
               className="swiper"

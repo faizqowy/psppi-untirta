@@ -38,7 +38,7 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+        <div className="lg:w-[1025px] w-[100%] flex flex-col justify-center">
           <Suspense>
           <Header_two />
           </Suspense>

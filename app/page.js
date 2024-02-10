@@ -11,6 +11,8 @@ import { IoIosPricetag } from "react-icons/io";
 import { register } from "swiper/element/bundle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, EffectCreative, Navigation } from "swiper/modules";
+
+import { Suspense, useEffect, useState } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -21,12 +23,25 @@ register();
 const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
 
 export default function Home() {
+  const [post, setPost] = useState(null);
+  
+  useEffect(() => {
+    fetch(`/local-data/data.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        setPost(data);
+      });
+  }, []);
+
+
   return (
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
         <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
           <div className={"bg-white " + nunitoSans.className}>
             <Swiper
               className="swiper"
@@ -189,196 +204,118 @@ export default function Home() {
 
             {/* Bagian Postingan */}
             <div className="grid md:grid-cols-2 grid-cols-1 mb-14">
-              <div className="p-5">
-                <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
-                <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
-                <p className="mb-5 text-sm">
-                  Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
-                  Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup
-                  dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
-                  sesuai standar sertifikasi dalam waktu yang mendesak.
-                </p>
-                <a href="/post?postId=1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
-                  Continue Reading
-                </a>
-                <div className="mt-5">
-                  <div className="flex">
-                    <FaClock className="mt-[2px] mr-2" />
-                    <p className="text-sm mr-7">12 February 2024</p>
-                    <FaFolderOpen className="mt-[2px] mr-2" />
-                    <p className="text-sm">
-                      <a href="#" className="text-blue-950">
-                        info
+              {post?.data.map((item, index) => {
+                if(index === 0){
+                  return(
+                    <div key={index} className="p-5">
+                      <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
+                      <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
+                      <p className="mb-5 text-sm">
+                        Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
+                        Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup
+                        dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
+                        sesuai standar sertifikasi dalam waktu yang mendesak.
+                      </p>
+                      <a href="/post?postId=1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                        Continue Reading
                       </a>
+                      <div className="mt-5">
+                        <div className="flex">
+                          <FaClock className="mt-[2px] mr-2" />
+                          <p className="text-sm mr-7">12 February 2024</p>
+                          <FaFolderOpen className="mt-[2px] mr-2" />
+                          <p className="text-sm">
+                            <a href="#" className="text-blue-950">
+                              info
+                            </a>
+                          </p>
+                        </div>
+                        <div className="flex mt-3">
+                          <IoIosPricetag className="mt-[2px] mr-1" size={30} />
+                          <p className="text-sm mr-7">
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              prodi profesi insinyur
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              Untirta
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              Profesi Insinyur
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              PS PPI
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              PS PPI - Untirta
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              PSPPI
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              PSPPI-Untirta
+                            </a>
+                            ,
+                            <a href="#" className="text-blue-800 hover:text-blue-950">
+                              Cilegon
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                }else{
+                return(
+                  <div key={index} className="p-5">
+                    <h2 className="text-xl font-bold border-b border-black mb-2">{item.title}</h2>
+                    <Image src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
+                    <p className="mb-5 text-sm">
+                      {item.content.slice(0, 200) + "..."}
                     </p>
+                    <a href={"/post?postId=" + (index+1)} className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                      Continue Reading
+                    </a>
+                    <div className="mt-5">
+                      <div className="flex">
+                        <FaClock className="mt-[2px] mr-2" />
+                        <p className="text-sm mr-7">{item.date}</p>
+                        <FaFolderOpen className="mt-[2px] mr-2" />
+                        <p className="text-sm">
+                          <a href="#" className="text-blue-950">
+                            {item.category}
+                          </a>
+                        </p>
+                      </div>
+                      <div className="flex mt-3">
+                        <IoIosPricetag className="mt-[2px] mr-1" size={30} />
+                        <p className="text-sm mr-7">
+                          {item.tags.map((tag, index) => {
+                            if(index === item.tags.length-1){
+                              return (
+                                <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
+                                  {tag}
+                                </a>
+                              )
+                            }else{
+                            return (
+                              <a key={index} href="#" className="text-blue-800 hover:text-blue-950">
+                                {tag},
+                              </a>
+                            )}
+                          })}
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="flex mt-3">
-                    <IoIosPricetag className="mt-[2px] mr-1" size={30} />
-                    <p className="text-sm mr-7">
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        prodi profesi insinyur
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Profesi Insinyur
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PS PPI
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PS PPI - Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PSPPI
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        PSPPI-Untirta
-                      </a>
-                      ,
-                      <a href="#" className="text-blue-800 hover:text-blue-950">
-                        Cilegon
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-5">
-                <h2 className="text-xl font-bold mb-2">Pendaftaran PSPPI 2024</h2>
-                <div className="mb-5 w-[100%]">
-                  <Image src="/images/article2.jpg" className="mr-3 object-cover object-top float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
-                  <p className="w-[100%] text-sm px-3">
-                    Pendaftaran Program Studi Program Profesi Insinyur 2020 sudah dibuka. Daftarkan dirimu sekarang, jangan lupa melengkapi persyaratan pendaftaran. Cek Seluruh informasi di website ini.
-                  </p>
-                </div>
-                <a href="/post?postId=2" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
-                  Continue Reading
-                </a>
-                <div className="flex mt-5">
-                  <FaClock className="mt-[2px] mr-2" />
-                  <p className="text-sm mr-7">12 February 2024</p>
-                  <FaFolderOpen className="mt-[2px] mr-2" />
-                  <p className="text-sm">
-                    <a href="#" className="text-blue-950">
-                      news
-                    </a>
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-5">
-                <h2 className="text-xl font-bold mb-2">Perkuliahan Program Profesi Insinyur ke 3</h2>
-                <div className="mb-5 w-[100%]">
-                  <Image src="/images/article3.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
-                  <p className="w-[100%] text-sm px-3">
-                    Pada hari Sabtu tanggal 16 Desember 2017 telah diadakan perkuliahan ke tiga (3) yang bertempat di Ruang Sidang Pascasarjana UNTIRTA, di Gedung Pascasarjana UNTIRTA Lantai 2. Acara perkuliahan berlangsung dari pukul 08.00 WIB
-                    hingga selesai pukul 12.00 WIB.
-                  </p>
-                </div>
-                <a href="/post?postId=3" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
-                  Continue Reading
-                </a>
-                <div className="flex mt-5">
-                  <FaClock className="mt-[2px] mr-2" />
-                  <p className="text-sm mr-7">12 February 2024</p>
-                  <FaFolderOpen className="mt-[2px] mr-2" />
-                  <p className="text-sm">
-                    <a href="#" className="text-blue-950">
-                      news
-                    </a>
-                  </p>
-                </div>
-
-                <div className="flex mt-3">
-                  <IoIosPricetag className="mt-[2px] mr-1" size={30} />
-                  <p className="text-sm mr-7">
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      prodi profesi insinyur
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      perkuliahan
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      Profesi Insinyur
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      PS PPI
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      PS PPI - Untirta
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      PSPPI
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      PSPPI-Untirta
-                    </a>
-                    ,
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-5">
-                <h2 className="text-xl font-bold mb-2">Kuliah Mid Semester PSPPI – UNTIRTA</h2>
-                <div className="mb-5 w-[100%]">
-                  <Image src="/images/article4.jpg" className="object-top mr-3 object-cover float-left w-[100%] h-[200px] border-4 mb-3" width={1920} height={1080} />
-                  <p className="w-[100%] text-sm px-3">
-                    Kuliah Mid Semester PPI UNTIRTA sedang berjalan hari ini, Sabtu, 21 Oktober 2017. Dibuka dengan Sambutan Pak Hidayat Soegihardjo selaku Kaprodi PPI UNTIRTA yang baru, kegiatan perkuliahan berjalan
-                  </p>
-                </div>
-                <a href="/post?postId=4" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
-                  Continue Reading
-                </a>
-                <div className="flex mt-5">
-                  <FaClock className="mt-[2px] mr-2" />
-                  <p className="text-sm mr-7">12 February 2024</p>
-                  <FaFolderOpen className="mt-[2px] mr-2" />
-                  <p className="text-sm">
-                    <a href="#" className="text-blue-950">
-                      news
-                    </a>
-                  </p>
-                </div>
-
-                <div className="flex mt-3">
-                  <IoIosPricetag className="mt-[2px] mr-1" size={30} />
-                  <p className="text-sm mr-7">
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      prodi profesi insinyur
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      Materi
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      Perkuliahan
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      PSPPI-Untirta
-                    </a>
-                    ,
-                    <a href="#" className="text-blue-800 hover:text-blue-950">
-                      Midsemester
-                    </a>
-                  </p>
-                </div>
-              </div>
+                )
+                }
+              })}
+              
             </div>
             {/* Akhir Postingan */}
           </div>

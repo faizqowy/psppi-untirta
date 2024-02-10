@@ -3,6 +3,7 @@ import Header_two from "../components/Header_two";
 import Footer from "../components/Footer";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
+import { Suspense } from "react";
 
 
 export default function Home() {
@@ -11,7 +12,9 @@ export default function Home() {
        <Header_one />
       <div className="flex flex-row justify-center">
       <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
 
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">

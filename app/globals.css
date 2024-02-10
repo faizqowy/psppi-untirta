@@ -10,7 +10,9 @@ html {
 body {
   margin: 0%;
   padding: 0%;
-  background-color: rgb(190, 190, 190);
+  background-image: url("/images/bg7.jpg");
+  background-repeat: repeat;
+  background-size: 259px;
 }
 
 .swiper {
@@ -37,4 +39,59 @@ body {
   .shadow-3xl {
     box-shadow: 0px 0px 10px 3px rgba(0.5, 0.5, 0.5, 0.5);
   }
+}
+
+.menu-btn {
+  margin-top: 30px;
+  width: 40px;
+  height: 7px;
+  background-color: #000;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 20;
+  border-radius: 30px;
+  transition: 300ms;
+}
+
+.menu-btn::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 7px;
+  background-color: #000;
+  border-radius: 30px;
+  z-index: 10;
+  transform: translateY(-10px);
+  transition: 300ms;
+  opacity: 1;
+}
+
+.menu-btn::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 7px;
+  background-color: #000;
+  border-radius: 30px;
+  z-index: 10;
+  transform: translateY(10px);
+  transition: 300ms;
+}
+
+.menu-btn.active::before {
+  transform: translateY(0px) rotate(45deg);
+}
+
+.menu-btn.menOpen::after {
+  transform: translateY(0px) rotate(-45deg);
+  transition: 300ms;
+}
+
+.menu-btn.menOpen::before {
+  transform: translateY(0px) rotate(45deg);
+  transition: 300ms;
+}
+
+.menu-btn.menOpen {
+  background-color: transparent;
 }

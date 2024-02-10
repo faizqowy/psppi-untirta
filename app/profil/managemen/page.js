@@ -6,6 +6,8 @@ import { IoIosArrowForward } from "react-icons/io";
 
 import { Montserrat } from "next/font/google";
 
+import { Suspense } from "react";
+
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
@@ -13,8 +15,10 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
-        <div className="lg:w-[1025px] w-[100%] flex flex-col justify-center">
-          <Header_two />
+        <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
+            <Header_two />
+          </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">

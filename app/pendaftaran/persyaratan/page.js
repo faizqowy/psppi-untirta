@@ -5,28 +5,39 @@ import Footer from "../../components/Footer";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 
+import { Suspense } from "react";
+
 export default function Home() {
   return (
     <main className="flex flex-col justify-center w-[100%]">
       <Header_one />
       <div className="flex flex-row justify-center">
         <div className="lg:w-[78%] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
               </a>
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
-              <h1 className="text-sm font-bold ml-1 mt-1">Persyaratan Pendaftaran</h1>
+              <h1 className="text-sm font-bold ml-1 mt-1">
+                Persyaratan Pendaftaran
+              </h1>
             </div>
-            <h1 className="text-3xl font-bold mb-4" style={{fontFamily:'Montserrat'}}>Persyaratan Pendaftaran</h1>
+            <h1
+              className="text-3xl font-bold mb-4"
+              style={{ fontFamily: "Montserrat" }}
+            >
+              Persyaratan Pendaftaran
+            </h1>
 
             <hr className="mx-auto my-2 md:my-6 dark:bg-gray-300" />
 
             <blockquote className="text-xl italic">
               <p class="text-justify">
-                " Persyaratan pendaftaran juga dapat di lihat pada website 
+                Persyaratan pendaftaran juga dapat di lihat pada website
                 <strong> smits.its.ac.id</strong>
               </p>
             </blockquote>

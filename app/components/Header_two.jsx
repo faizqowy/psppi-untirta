@@ -62,7 +62,7 @@ export default function Header_two() {
   return (
     <div className="bg-transparent shadow py-3">
       <div className="flex justify-center">
-        <div className="lg:w-[100%] w-[100%] lg:mx-0 mx-4 flex flex-col lg:flex-row justify-between">
+        <div className="lg:w-[100%] w-[100%] lg:mx-0 mx-4 flex flex-col lg:flex-row justify-between px-3">
           <div className="flex-row" style={{ display: "flex", alignItems: "center" }}>
               <a href="/">
                 <Image

@@ -16,7 +16,7 @@ export default function Home() {
       <div className="flex flex-row justify-center">
         <div className="lg:w-[1025px] w-[100%] flex flex-col justify-center">
           <Suspense>
-          <Header_two />
+            <Header_two />
           </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">

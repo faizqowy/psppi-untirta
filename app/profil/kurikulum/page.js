@@ -16,40 +16,40 @@ export default function Home() {
       <div className="flex flex-row justify-center">
         <div className="lg:w-[1025px] w-[100%] flex flex-col justify-center">
           <Suspense>
-          <Header_two />
+            <Header_two />
           </Suspense>
           <section className="p-8 bg-white text-gray-600">
-          <div className="flex mb-7">
-            <a href="/" className="hover:cursor-pointer">
-              <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
-            </a>
-            <IoIosArrowForward className="mt-2 inline-block text-sm" />
-            <p>Kurikulum</p>
-          </div>
-          <div>
-            <h1 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
-              Kurikulum
-            </h1>
-    
-            <h2 className="text-3xl mb-2">Capaian Pembelajaran Lulusan Minimum:</h2>
-    
-            <ul className="list-decimal mb-2 pl-12">
-              <li className="mb-2">Mampu melakukan perencanaan keinsinyuran dengan memanfaatkan sumberdaya dan melakukan evaluasi keinsinyuran secara komprehensif dengan memanfaatkan ilmu pengetahuan dan teknologi;</li>
-              <li className="mb-2">Mampu memecahkan permasalahan keinsinyuran melalui monodisiplin dan multidisiplin;</li>
-              <li className="mb-2">Mampu melakukan riset dan mengambil keputusan keinsinyuran sesuai etika profesi secara strategis dan akuntabel.</li>
-            </ul>
-    
-            <p className="mb-2">Program Studi Program Profesi Institut Teknologi Sepuluh Nopember (ITS) Surabaya, memuat materi perkuliahan dengan muatan 24 sks, yang terdiri dari:</p>
-    
-            <ol className="list-decimal mb-2 pl-12">
-              <li className="mb-2">Kode etik dan etika profesi insinyur (2 sks)</li>
-              <li className="mb-2">Profesionalisme (2 sks)</li>
-              <li className="mb-2">Keselamatan, Kesehatan, Keamanan Kerja dan Lingkungan (2 sks)</li>
-              <li className="mb-2">Praktek Keinsinyuran (12 SKS)</li>
-              <li className="mb-2">Studi Kasus (4 sks)</li>
-              <li className="mb-2">Seminar (2 sks)</li>
-            </ol>
-          </div>
+            <div className="flex mb-7">
+              <a href="/" className="hover:cursor-pointer">
+                <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
+              </a>
+              <IoIosArrowForward className="mt-2 inline-block text-sm" />
+              <p>Kurikulum</p>
+            </div>
+            <div>
+              <h1 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
+                Kurikulum
+              </h1>
+
+              <h2 className="text-3xl mb-2">Capaian Pembelajaran Lulusan Minimum:</h2>
+
+              <ul className="list-decimal mb-2 pl-12">
+                <li className="mb-2">Mampu melakukan perencanaan keinsinyuran dengan memanfaatkan sumberdaya dan melakukan evaluasi keinsinyuran secara komprehensif dengan memanfaatkan ilmu pengetahuan dan teknologi;</li>
+                <li className="mb-2">Mampu memecahkan permasalahan keinsinyuran melalui monodisiplin dan multidisiplin;</li>
+                <li className="mb-2">Mampu melakukan riset dan mengambil keputusan keinsinyuran sesuai etika profesi secara strategis dan akuntabel.</li>
+              </ul>
+
+              <p className="mb-2">Program Studi Program Profesi Institut Teknologi Sepuluh Nopember (ITS) Surabaya, memuat materi perkuliahan dengan muatan 24 sks, yang terdiri dari:</p>
+
+              <ol className="list-decimal mb-2 pl-12">
+                <li className="mb-2">Kode etik dan etika profesi insinyur (2 sks)</li>
+                <li className="mb-2">Profesionalisme (2 sks)</li>
+                <li className="mb-2">Keselamatan, Kesehatan, Keamanan Kerja dan Lingkungan (2 sks)</li>
+                <li className="mb-2">Praktek Keinsinyuran (12 SKS)</li>
+                <li className="mb-2">Studi Kasus (4 sks)</li>
+                <li className="mb-2">Seminar (2 sks)</li>
+              </ol>
+            </div>
           </section>
           <Footer />
         </div>
@@ -57,4 +57,3 @@ export default function Home() {
     </main>
   );
 }
-

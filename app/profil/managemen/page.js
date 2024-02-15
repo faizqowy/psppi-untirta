@@ -28,46 +28,81 @@ export default function Home() {
               <p>Managemen</p>
             </div>
             <div>
-              <h2 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
+              <h2 className={"text-3xl font-bold py-2 mb-2 " + montserrat.className}>
                 Manajemen dan Dosen
               </h2>
 
               <strong className="mb-2">MANAJEMEN PROGRAM STUDI PROGRAM PROFESI INSINYUR</strong>
-              <p>
-                <strong className="mb-2">Ketua Program Studi:</strong> Ir. I Made Yulistya Negara, ST, M.Sc, IPM
+              <p className="mb-7">
+                <strong className="mb-2">Ketua Program Studi:</strong> -
                 <br />
-                <strong className="mb-2">Sekretaris Program Studi:</strong> Ir. Defry Agatha Ardianta, S.T., M.T, IPM
+                <strong className="mb-2">Sekretaris Program Studi:</strong> -
               </p>
 
-              <h3 className="py-4">
-                <strong>DOSEN PENGAJAR</strong>
-              </h3>
-              <ul className="list-decimal mb-2 pl-12">
-                <li className="mb-2">Ir. Patdono Suwignjo, M.Eng, IPU</li>
-                <li className="mb-2">Ir. Moses L. S., M.Sc, M.Reg.Sc, Ph.D, IPU</li>
-                {/* Add more Dosen Pengajar here */}
-              </ul>
+              <h3 className="font-extrabold text-xl">Dosen Pengampu Mata Kuliah :</h3>
+              <table className="w-full mt-4 md:text-base text-xs">
+                <thead>
+                  <tr>
+                    <th className="border border-gray-400 px-2 py-2">No</th>
+                    <th className="border border-gray-400 py-2">NIDN</th>
+                    <th className="border border-gray-400 py-2">Nama</th>
+                    <th className="border border-gray-400 py-2">Status</th>
+                    <th className="border border-gray-400 py-2">Homebase</th>
+                    <th className="border border-gray-400 py-2">Mata Kuliah Di Ampu</th>
+                  </tr>
+                </thead>
+                <tbody className="text-center">
+                  <tr>
+                    <td className="border border-gray-400 py-2">1</td>
+                    <td className="border border-gray-400 py-2">0002037602</td>
+                    <td className="border border-gray-400 py-2">ASEP RIDWAN</td>
+                    <td className="border border-gray-400 py-2">Tetap</td>
+                    <td className="border border-gray-400 py-2">S2 Teknik Industri</td>
+                    <td className="border border-gray-400 py-2">Seminar</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">2</td>
+                    <td className="border border-gray-400 py-2">0021277030</td>
+                    <td className="border border-gray-400 py-2">SIRAJUDDIN</td>
+                    <td className="border border-gray-400 py-2">Tetap</td>
+                    <td className="border border-gray-400 py-2">S2 Teknik Industri</td>
+                    <td className="border border-gray-400 py-2">Kode Etik dan Etika Profesi Insinyur</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">3</td>
+                    <td className="border border-gray-400 py-2">0008057604</td>
+                    <td className="border border-gray-400 py-2">SUPRIYANTO</td>
+                    <td className="border border-gray-400 py-2">Tetap</td>
+                    <td className="border border-gray-400 py-2">S1 Informatika</td>
+                    <td className="border border-gray-400 py-2">Studi Kasus</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">4</td>
+                    <td className="border border-gray-400 py-2">0013127604</td>
+                    <td className="border border-gray-400 py-2">BOBBY KURNIAWAN</td>
+                    <td className="border border-gray-400 py-2">Tetap</td>
+                    <td className="border border-gray-400 py-2">S1 Teknik Industri</td>
+                    <td className="border border-gray-400 py-2">Profesionalisme Keinsinyuran</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">5</td>
+                    <td className="border border-gray-400 py-2"></td>
+                    <td className="border border-gray-400 py-2">EDIYANTO ARIEF</td>
+                    <td className="border border-gray-400 py-2">Industri</td>
+                    <td className="border border-gray-400 py-2"></td>
+                    <td className="border border-gray-400 py-2">Keamanan, Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">6</td>
+                    <td className="border border-gray-400 py-2"></td>
+                    <td className="border border-gray-400 py-2">WAHIDIN</td>
+                    <td className="border border-gray-400 py-2">Industri</td>
+                    <td className="border border-gray-400 py-2"></td>
+                    <td className="border border-gray-400 py-2">Praktek Keinsinyuran</td>
+                  </tr>
+                </tbody>
+              </table>
 
-              <h3 className="py-4">
-                <strong>DOSEN TIDAK TETAP/PEMBIMBING LAPANGAN</strong>
-              </h3>
-              <ul className="list-decimal mb-2 pl-12">
-                <li className="mb-2">
-                  <strong>Djoko Sukalisno K., Dipl.HE, PU-SDA, ACPE</strong> [BBWS Brantas]
-                </li>
-                <li className="mb-2">
-                  <strong>Unggul Cariawan, M.Econ, IPM</strong> [PT. Jasa Marga (Persero) Tbk.]
-                </li>
-                <li className="mb-2">
-                  <strong>Firnandi Imawan, IPM </strong> [PT. XL Axiata, Tbk]
-                </li>
-                <li className="mb-2">
-                  <strong>Herwanto Budi Sardjono, IPM</strong> [PT. JAYA CM]
-                </li>
-                <li className="mb-2">
-                  <strong>Tito Ari Bawono, IPM</strong> [PT. Jaya Kontruksi M.P, Tbk]
-                </li>
-              </ul>
             </div>
           </section>
           <Footer />

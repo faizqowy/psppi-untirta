@@ -26,32 +26,49 @@ export default function Home() {
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <p>Visi-Misi</p>
             </div>
-            <h1 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
+            <h1 className={"text-3xl font-bold py-2 mb-2 " + montserrat.className}>
               Visi-Misi
             </h1>
-            <h3 className="font-bold py-2 mb-2 text-blue-700  ">Visi</h3>
+            <h3 className="font-bold py-2 mb-2 text-blue-700  ">Visi Universitas</h3>
             <p className="mb-2">
-              Visi dari Program Studi Program Profesi Insinyur adalah menghasilkan lulusan yang beretika, menjunjung kode etik keinsinyuran dan profesional dalam bekerja di bidang keinsinyuran untuk mendukung ITS menjadi perguruan tinggi
-              dengan reputasi internasional dalam ilmu pengetahuan, teknologi, dan seni, terutama yang menunjang industri dan kelautan yang berwawasan lingkungan.
+            Terwujudnya Untirta Sebagai Healthy, Integrated, Smart and Green (HITS Green) University yang Unggul, Berkarakter dan Berdaya Saing Global pada Tahun 2035.
             </p>
 
-            <h2 className="font-bold py-2 mb-2 text-blue-700">Misi</h2>
-            <p className="mb-2">Visi di atas dirumuskan menjadi misi dari Program Studi Program Profesi Insinyur, dengan mengacu pada Tri Dharma Perguruan Tinggi, yaitu:</p>
+            <h2 className="font-bold py-2 mb-2 text-blue-700">Misi Universitas</h2>
             <ul className="list-decimal mb-2 pl-12">
               <li className="mb-2 ">
-                Menyelenggarakan pendidikan tinggi di bidang profesi insinyur untuk menghasilkan lulusan yang dapat melaksanakan praktek keinsinyuran dalam ilmu pengetahuan dan teknologi, serta mampu bersaing di tingkat nasional maupun
-                internasional.
+              Meningkatkan kualitas, relevansi dan daya saing pendidikan serta lulusan yang unggul, berkarakter dan berdaya saing
               </li>
-              <li className="mb-2">Menjadi jembatan perguruan tinggi dengan dunia usaha dan industri sehingga terjalin kerja sama saling menguntungkan.</li>
+              <li className="mb-2">
+                Meningkatkan kualitas dan kuantitas penelitian dan pengabdian kepada masyarakat yang inovatif berbasis kebutuhan nyata sesuai perkembangan zaman.
+              </li>
+              <li className="mb-2">
+              Meningkatkan daya dukung tatakelola perguruan tinggi yang baik sebagai implementasi dari Healthy, Integrated, Smart and Green (HITS Green) University.
+              </li>
             </ul>
 
-            <h2 className="font-bold py-2 mb-2 text-blue-700 ">Tujuan</h2>
-            <p className="mb-2">Tujuan dari Program Studi Program Profesi Insinyur adalah sebagai berikut</p>
+            <h2 className="font-bold py-2 mb-2 text-blue-700 ">Tujuan Universitas</h2>
             <ul className="list-decimal mb-2 pl-12">
-              <li className="mb-2">Menghasilkan insinyur yang dapat melakukan praktik keinsinyuran sesuai dengan bidang kejuruan yang ditekuni.</li>
-              <li className="mb-2">Meningkatkan kualitas tenaga pendidik dalam keinsinyuran.</li>
+              <li className="mb-2">Menyelenggarakan pendidikan akademik, profesi dan/atau vokasi.</li>
+              <li className="mb-2">Melakukan pengembangan pendidikan tinggi dengan melaksanakan Tri Dharma Perguruan Tinggi yang meliputi pendidikan, penelitian dan penagbdian kepada masyarakat.</li>
             </ul>
-            <p className="mb-2">Berperan aktif dalam kegiatan keinsinyuran di Indonesia sehingga dapat meningkatkan peran serta ITS dalam pembangunan nasional.</p>
+
+            <h2 className="font-bold py-2 mb-2 text-blue-700">University Values</h2>
+            <p className="mb-2">Value Untirta adalah JAWARA (Jujur, Adil, Wibawa, Amanah, Religius, dan Akuntabel). Untirta merupakan rumah yang tidak hanya berperan sebagai tempat, namun juga sebagai sumber pengetahuan, keteladanan, dan kebajikan. Oleh karena itu seluruh civitas academica Untirtaberkewajiban menjunjung tinggi nilai-nilai dasar dalam melaksanakan tugas dan</p>
+
+            <h2 className="font-bold py-2 mb-2 text-blue-700">Visi Keilmuan PSPPI Untirta</h2>
+            <p className="mb-2">Visi keilmuan program studi program profesi insinyur (PSPPI) Untirta adalah menjadi penyelenggara pendidikan profesi keinsinyuran yang Healthy, Integrated, Smart and Green (HITS Green) dengan melakukan sinergi dan kolaborasi bersama industri untuk mencetak insinyur profesional yang Unggul, Berkarakter dan Berdaya Saing Global pada Tahun 2035.</p>
+
+            <h2 className="font-bold py-2 mb-2 text-blue-700">Tujuan Pendidikan PSPPI Untirta</h2>
+            <ul className="list-disc mb-2 pl-12">
+              <li className="mb-2">Insinyur profesional yang mampu menerapkan praktik manajemen operasi (operation management) yang efisien pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+              <li className="mb-2">Insinyur profesional yang mampu merancang sistem transportasi dan logistik yang efisien pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+              <li className="mb-2">Insinyur profesional yang mampu untuk melakukan kegiatan pengajaran dan penelitian pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+              <li className="mb-2">Insinyur profesional yang mampu menyediakan pelatihan praktik keinsinyuran pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+              <li className="mb-2">Insinyur profesional yang mampu menyediakan jasa konsultasi pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+              <li className="mb-2">Insinyur profesional yang mampu menjadi wirausaha (entrepreneur) pada industri petrokimia, manufaktur, dan pembangkit energi.</li>
+            </ul>
+
 
             <h2 className="font-bold py-2 mb-2 text-blue-700">Dasar Hukum & Regulasi Program Profesi Insinyur:</h2>
             <ul className="list-disc mb-2 pl-12">

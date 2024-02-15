@@ -45,17 +45,16 @@ export default function Home() {
               <li>
               Direktorat Pascasarjana dan Pengembangan Akademik
               </li>
-              <li>Gedung KPA Plasa Dr. Angka Lantai 3</li>
-              <li>Kampus ITS Sukolilo, Surabaya</li>
-              <li>Telp. (031) 5994251 ext. 1126, 1384</li>
-              <li>E-mail  :  psppi@its.ac.id</li>
-              <li>Website  pendaftaran:  http://smits.its.ac.id</li>
+              <li>Jl. Jend. Sudirman KM3, Cilegon, 42435, Banten</li>
+              <li>Kampus Untirta, Cilegon</li>
+              <li>Telp. +62 254376712</li>
+              <li>E-mail & Website :  http://ft.untirta.ac.id/</li>
             </ul>
 
             <ul className="my-4">
               <li>Contact Person :</li>
-              <li>Ir. Defry Agatha Ardianta, ST., MT., IPM</li>
-              <li>No. HP/WA : 0815-5500-347</li>
+              <li>-</li>
+              <li>No. HP/WA : -</li>
             </ul>
           </section>
           <Footer />

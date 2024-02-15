@@ -53,7 +53,7 @@ export default function Post() {
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <h1 className="text-sm font-bold ml-1 mt-1">{post?.data[val-1].title}</h1>
             </div>
-            <h1 className="text-3xl font-bold mb-4 text-center">{post?.data[val-1].title}</h1>
+            <h1 className="text-2xl font-bold mb-4 text-center">{post?.data[val-1].title}</h1>
             <div className="flex flex-row justify-center w-[100%]">
               {post ? 
                 <Image className="center" src={post?.data[val-1].img} alt="post-image" width={500} height={300} />

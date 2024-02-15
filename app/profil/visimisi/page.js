@@ -22,7 +22,7 @@ export default function Home() {
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">
                 <IoHomeSharp className="inline-block text-sm hover:fill-blue-950 duration-300" />
-              </a>
+              </a> 
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <p>Visi-Misi</p>
             </div>

@@ -39,7 +39,7 @@ export default function Home() {
                 <strong className="mb-2">Sekretaris Program Studi:</strong> -
               </p>
 
-              <h3 className="font-extrabold text-xl">Dosen Pengampu Mata Kuliah :</h3>
+              <h3 className="font-semibold text-lg">Dosen Pengampu Mata Kuliah :</h3>
               <table className="w-full mt-4 md:text-base text-xs">
                 <thead>
                   <tr>

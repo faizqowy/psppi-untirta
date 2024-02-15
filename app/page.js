@@ -71,13 +71,13 @@ export default function Home() {
             >
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider1.jpg" className="object-cover w-[50%] h-[400px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3">
+                  <Image src="/images/slider1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-sm">
+                    <p className="text-base">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>
@@ -86,13 +86,13 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider2.jpg" className="object-cover w-[50%] h-[400px] object-left" width={1920} height={1080} />
-                  <div className="self-center p-3">
+                  <Image src="/images/slider2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-sm">
+                    <p className="text-base">
                       Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang
                       mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi sesuai standar sertifikasi dalam waktu yang mendesak.
                     </p>
@@ -101,25 +101,25 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider3.jpg" className="object-cover w-[50%] h-[400px] object-left" width={1920} height={1080} />
-                  <div className="self-center p-3">
+                  <Image src="/images/slider3.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-sm">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
+                    <p className="text-base">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider4.jpg" className="object-cover w-[50%] h-[400px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3">
+                  <Image src="/images/slider4.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-sm">
+                    <p className="text-base">
                       Program Pendidikan Reguler dan Program Rekognisi Pembelajaran Lampau (RPL), dengan demikian UNTIRTA
                       <br />
                       memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaan PSPPI UNTIRTA dilaksanakan
@@ -131,13 +131,13 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider5.jpg" className="object-cover w-[50%] h-[400px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3">
+                  <Image src="/images/slider5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-sm">
+                    <p className="text-base">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>
@@ -145,7 +145,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
             </Swiper>
-            <div className="mt-28 mb-28 flex flex-row justify-center">
+            <div className="mt-5 mb-5 flex flex-row justify-center">
               <ul className="flex flex-col lg:flex-row lg:justify-around lg:w-[100%]">
                 <li>
                   <div className="text-center">
@@ -154,10 +154,10 @@ export default function Home() {
                         <Image src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500">
+                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="#">Tentang PS PPI</a>
                     </h3>
-                    <p className="mt-7 w-[200px]">Apa itu PS PPI?</p>
+                    <p className="w-[200px]">Apa itu PS PPI?</p>
                   </div>
                 </li>
                 <li>
@@ -167,10 +167,10 @@ export default function Home() {
                         <Image src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500">
+                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="#">Program Reguler</a>
                     </h3>
-                    <p className="mt-7 w-[200px]">Penjelasan Program Reguler PS PPI</p>
+                    <p className="w-[200px]">Penjelasan Program Reguler PS PPI</p>
                   </div>
                 </li>
                 <li>
@@ -180,10 +180,10 @@ export default function Home() {
                         <Image src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500">
+                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="#">Program RPL</a>
                     </h3>
-                    <p className="mt-7 w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
+                    <p className="w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
                   </div>
                 </li>
                 <li>
@@ -193,10 +193,10 @@ export default function Home() {
                         <Image src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
-                    <h3 className="text-amber-700 text-xl mt-7 hover:text-amber-950 duration-500">
+                    <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
                       <a href="#">Admisi</a>
                     </h3>
-                    <p className="mt-7 w-[200px]">Penjelasan pendaftaran PS PPI</p>
+                    <p className="w-[200px]">Penjelasan pendaftaran PS PPI</p>
                   </div>
                 </li>
               </ul>

@@ -63,20 +63,8 @@ export default function Header_two() {
     <div className="bg-transparent shadow py-3">
       <div className="flex justify-center">
         <div className="lg:w-[100%] w-[100%] lg:mx-0 mx-4 flex flex-col lg:flex-row justify-between px-3">
-          <div className="flex-row" style={{ display: "flex", alignItems: "center" }}>
-              <a href="/">
-                <Image
-                  src="/images/psppi.jpg"
-                  alt="PSPPI Logo"
-                  className="object-cover w-[100%] md:h-[130px] lg:block hidden object-center border-4 border-blue-500 shadow-black shadow-lg"
-                  width={1920}
-                  height={1080}
-                  style={{ borderRadius: "10px" }}
-                />
-              </a>
-            </div>
           <div className="flex justify-center">
-            <div className={"text-blue-600 text-2xl font-extrabold self-end " + montserrat.className}>
+            <div className={"text-blue-600 text-2xl font-extrabold self-center " + montserrat.className}>
               <p>PROGRAM STUDI</p>
               <p>PROGRAM PROFESI INSINYUR</p>
               <p>UNIVERSITAS SULTAN AGENG TIRTAYASA</p>
@@ -84,14 +72,6 @@ export default function Header_two() {
           </div>
           <div className="flex lg:justify-end justify-center">
             <div className="flex justify-between items-center">
-              <Image
-                  src="/images/psppi.jpg"
-                  alt="PSPPI Logo"
-                  className="object-cover w-[100%] lg:hidden h-[100px] object-right border-4 border-blue-500 shadow-black shadow-lg"
-                  width={1920}
-                  height={1080}
-                  style={{ borderRadius: "10px" }}
-              />
               <Image
                 src="/images/untirtalogo.jpg"
                 alt="Unitrta Logo"

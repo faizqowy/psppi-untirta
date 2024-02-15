@@ -177,7 +177,7 @@ export default function Home() {
               </table>
 
               {/* Tabel 2 */}
-              <h4 className="mt-10 mb-2">Aspek Pengetahuan CPL PSPPI Untirta</h4>
+              <h4 className="mt-10 mb-2 font-bold">Aspek Pengetahuan CPL PSPPI Untirta</h4>
               <table className="table-auto w-full mb-24">
                 <thead>
                   <tr>

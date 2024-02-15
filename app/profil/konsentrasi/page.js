@@ -14,7 +14,7 @@ export default function Home() {
     <main className="flex flex-col justify-center w-[100%]">
     <Header_one />
     <div className="flex flex-row justify-center">
-      <div className="ll:w-[1180px] w-[100%] flex flex-col justify-center">
+      <div className="lg:w-[1024px] w-[100%] flex flex-col justify-center">
         <Suspense>
         <Header_two />
         </Suspense>
@@ -27,7 +27,7 @@ export default function Home() {
               <p>Konsentrasi</p>
             </div>
             <div>
-              <h1 className={"text-3xl font-bold + montserrat.className  py-2 mb-2 "} style={{ fontFamily: "Montserrat" }}>
+              <h1 className={"text-3xl font-bold py-2 mb-2 "  + montserrat.className}>
                 Konsentrasi Pembimbingan
               </h1>
               <p className=" mb-4">

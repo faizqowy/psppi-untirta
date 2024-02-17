@@ -95,9 +95,9 @@ export default function Home() {
 
             <p className="mb-2">
               Hasil seleksi diumumkan pada tanggal 31 Juli 2019 di Website
-              Seleksi Masuk ITS (SMITS){" "}
-              <a href="http://smits.its.ac.id" style={{ color: "blue" }}>
-                http://smits.its.ac.id
+              Seleksi Masuk Untirta (SMITS){" "}
+              <a href="https://untirta.ac.id/" style={{ color: "blue" }}>
+                https://untirta.ac.id/
               </a>
             </p>
 

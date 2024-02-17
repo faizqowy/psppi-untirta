@@ -37,7 +37,7 @@ export default function Home() {
               Sistem Perkuliahan
             </h1>
             <p>
-              Dalam Program Rekognisi Pembelajaran Lampau (RPL) di PSPPI ITS,
+              Dalam Program Rekognisi Pembelajaran Lampau (RPL) di PSPPI Untirta,
               mahasiswa direncanakan menempuh program satu semester dengan beban
               studi 24 SKS. Beban 24 SKS tersebut terbagi pada beberapa Mata
               Kuliah yaitu:
@@ -73,12 +73,12 @@ export default function Home() {
               </li>
               <li>
                 Tim Penguj memutuskan apakah mahasiswa diterima atau tidak
-                menjadi mahasiswa di PSPPI-ITS
+                menjadi mahasiswa di PSPPI-Untirta
               </li>
               <li>
                 Proses self assessment, mengisi portfolio kegiatan keinsinyuran
                 dan wawancara tersebut merupakan proses Rekognisi Pembelajaran
-                Lampau (RPL) di PSPPI-ITS, dan diakui sebagai Mata Kuliah
+                Lampau (RPL) di PSPPI-Untirta, dan diakui sebagai Mata Kuliah
                 Praktek Keinsinyuran (12 SKS).
               </li>
             </ul>
@@ -100,7 +100,7 @@ export default function Home() {
               <li>
                 Selain proses self assessment tersebut, mahasiswa akan diberi
                 pembekalan pada minggu pertama tatap muka, yaitu pada minggu
-                ke-1 sesuai kalender akademis ITS. Dalam pembekalan tersebut,
+                ke-1 sesuai kalender akademis Untirta. Dalam pembekalan tersebut,
                 mahasiswa akan diberi materi yang disertai dengan diskusi di
                 dalam kelas. Di akhir pembekalan, mahasiswa akan diberi tugas
                 terkait kode etik, profesionalisme dan K3L di tempat kerja

@@ -32,27 +32,27 @@ export default function Home() {
                 Biaya Perkuliahan
               </h1>
               <p className="text-1xl font-bold mb-2">
-                Biaya Perkuliahan PPI ITS, sebagai berikut:
+                Biaya Perkuliahan PPI Untirta, sebagai berikut:
               </p>
               <ul className="list-decimal pl-10 my-4">
                 <li className="text-1xl font-bold mb-2">
-                  Registrasi Calon Mahasiswa Baru PPI ITS
+                  Registrasi Calon Mahasiswa Baru PPI Untirta
                 </li>
                 <p className="mb-2">
-                  Biaya Registrasi PPI ITS sebesar Rp. 1.000.000,00 (satu juta
+                  Biaya Registrasi PPI Untirta sebesar Rp. 1.000.000,00 (satu juta
                   rupiah) melalui Registrasi Online pada website{" "}
-                  <a href="http://smits.its.ac.id" style={{ color: "blue" }}>
-                    http://smits.its.ac.id
+                  <a href="https://untirta.ac.id/" style={{ color: "blue" }}>
+                    https://untirta.ac.id/
                   </a>
                   .
                 </p>
 
                 <li className="text-1xl font-bold mb-2">
-                  Pendaftaran Ulang Mahasiswa Baru PSPPI ITS
+                  Pendaftaran Ulang Mahasiswa Baru PSPPI Untirta
                 </li>
                 <p>
                   Tempat pendaftaran ulang di sekretariat Bagian Administrasi
-                  Pembelajaran BAPKM – ITS, dengan biaya PPI sebesar Rp.
+                  Pembelajaran BAPKM – Untirta, dengan biaya PPI sebesar Rp.
                   12.500.000,00 (sepuluh juta rupiah). Biaya PPI sudah termasuk
                   biaya pendaftaran keanggotaan PII (Persatuan Insinyur
                   Indonesia) dan biaya iuran PII pada tahun pertama. Biaya

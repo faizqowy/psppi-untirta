@@ -38,13 +38,12 @@ export default function Home() {
             <blockquote className="text-xl italic">
               <p class="text-justify">
                 Persyaratan pendaftaran juga dapat di lihat pada website
-                <strong> smits.its.ac.id</strong>
+                <strong> https://untirta.ac.id/</strong>
               </p>
             </blockquote>
             <hr class="lg:w-[100%] w-[100%] h-0.5 bg-gray-50 border border-gray-0 rounded my-6 dark:bg-gray-300 mb-0" />
             <p class="mb-2">
-              Peminat Program Profesi Insinyur Institut Teknologi Sepuluh
-              Nopember (ITS) Surabaya wajib memenuhi persyaratan sebagai berikut
+              Peminat Program Profesi Insinyur Universitas Sultan Ageng Tirtayasa (Untirta) wajib memenuhi persyaratan sebagai berikut
               :
             </p>
 
@@ -79,12 +78,12 @@ export default function Home() {
               <li>
                 Bidang studi yang tercantum pada ijazah Sarjana/ Sarjana
                 Terapan/ Diploma IV ada dalam list Konsentrasi Pembimbingan
-                PSPPI ITS.
+                PSPPI Untirta.
               </li>
             </ul>
 
             <p className="mb-2">
-              Persyaratan Pendaftaran PSPPI ITS dengan menyertakan dokumen
+              Persyaratan Pendaftaran PSPPI Untirta dengan menyertakan dokumen
               sebagai berikut:
             </p>
 
@@ -97,13 +96,13 @@ export default function Home() {
               </li>
               <li>Foto copy KTP</li>
               <li>
-                Surat Keterangan Berbadan Sehat untuk mengikuti kuliah PSPPI ITS
+                Surat Keterangan Berbadan Sehat untuk mengikuti kuliah PSPPI Untirta
               </li>
               <li>Foto berwarna 4×6 cm sebanyak 3 (tiga) lembar.</li>
               <li>Bukti pelunasan biaya pendaftaran program.</li>
             </ul>
             <p>
-              Surat pernyataan kesediaan mengikuti PSPPI ITS dan Surat
+              Surat pernyataan kesediaan mengikuti PSPPI Untirta dan Surat
               pernyataan keaslian dokumen.
             </p>
           </section>

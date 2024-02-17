@@ -31,7 +31,7 @@ export default function Home() {
                 Konsentrasi Pembimbingan
               </h1>
               <p className=" mb-4">
-                Program Studi Program Profesi Insinyur, Institut Teknologi Sepuluh Nopember (ITS) Surabaya menawarkan konsentrasi pembimbingan dari Program Studi Sarjana (S1), Sarjana Terapan (S1T) atau DIV pada cakupan disiplin teknik
+                Program Studi Program Profesi Insinyur, Untirta menawarkan konsentrasi pembimbingan dari Program Studi Sarjana (S1), Sarjana Terapan (S1T) atau DIV pada cakupan disiplin teknik
                 keinsinyuran berikut ini (PP 25 Tahun 2019):
               </p>
 
@@ -64,7 +64,7 @@ export default function Home() {
 
                 <li>Pertanian dan Hasil Pertanian</li>
                 <ul className="list-disc mb-2 pl-8">
-                  <li>(tidak ada di ITS)</li>
+                  <li>(tidak ada di Untirta)</li>
                 </ul>
 
                 <li>Teknologi Kelautan dan Perkapalan</li>
@@ -75,7 +75,7 @@ export default function Home() {
                   <li>Teknik Transportasi Laut</li>
                 </ul>
 
-                <li>Aeronotika dan Astronotika – (tidak ada di ITS)</li>
+                <li>Aeronotika dan Astronotika – (tidak ada di Untirta)</li>
               </ul>
             </div>
           </section>

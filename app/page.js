@@ -77,7 +77,7 @@ export default function Home() {
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base">
+                    <p className="text-base text-center">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>
@@ -92,7 +92,7 @@ export default function Home() {
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base">
+                    <p className="text-base text-center">
                       Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang
                       mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi sesuai standar sertifikasi dalam waktu yang mendesak.
                     </p>
@@ -107,7 +107,7 @@ export default function Home() {
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
+                    <p className="text-base text-center">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
                   </div>
                 </div>
               </SwiperSlide>
@@ -119,7 +119,7 @@ export default function Home() {
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base">
+                    <p className="text-base text-center">
                       Program Pendidikan Reguler dan Program Rekognisi Pembelajaran Lampau (RPL), dengan demikian UNTIRTA
                       <br />
                       memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaan PSPPI UNTIRTA dilaksanakan
@@ -137,7 +137,7 @@ export default function Home() {
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base">
+                    <p className="text-base text-center">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>

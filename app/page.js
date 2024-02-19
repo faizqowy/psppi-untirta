@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="flex text-right">
                   <Image src="/images/slider1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -88,7 +88,7 @@ export default function Home() {
                 <div className="flex text-right">
                   <Image src="/images/slider2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -103,7 +103,7 @@ export default function Home() {
                 <div className="flex text-right">
                   <Image src="/images/slider3.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -115,7 +115,7 @@ export default function Home() {
                 <div className="flex text-right">
                   <Image src="/images/slider4.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -133,7 +133,7 @@ export default function Home() {
                 <div className="flex text-right">
                   <Image src="/images/slider5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
@@ -149,7 +149,7 @@ export default function Home() {
               <ul className="flex flex-col lg:flex-row lg:justify-around lg:w-[100%]">
                 <li>
                   <div className="text-center">
-                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
                         <Image src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
@@ -162,7 +162,7 @@ export default function Home() {
                 </li>
                 <li>
                   <div className="text-center">
-                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
                         <Image src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
@@ -175,7 +175,7 @@ export default function Home() {
                 </li>
                 <li>
                   <div className="text-center">
-                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
                         <Image src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
@@ -188,7 +188,7 @@ export default function Home() {
                 </li>
                 <li>
                   <div className="text-center">
-                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3">
+                    <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
                         <Image src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>

@@ -71,7 +71,7 @@ export default function Home() {
             >
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image src="/images/vt1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -86,7 +86,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <Image src="/images/vt2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -101,7 +101,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider3.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <Image src="/images/vt4.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -113,7 +113,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider4.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image src="/images/vt3.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -131,7 +131,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/slider5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image src="/images/vt5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi

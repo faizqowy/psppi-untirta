@@ -55,7 +55,7 @@ export default function Header_two() {
       searchBtn.current.click();
     }
     else {
-      router.push(`/search/que?search=${input}`);
+      router.push(`/news`);
     }
   }
 

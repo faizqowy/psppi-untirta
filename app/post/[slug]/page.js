@@ -8,6 +8,7 @@ import Footer from "../../components/Footer";
 import { FaFolderOpen } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
 import { IoIosPricetag } from "react-icons/io";
+import { Suspense } from "react";
 
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
@@ -17,12 +18,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 
 export async function generateStaticParams() {
-  return data.data.map((item, index) => {
-    slug : item.postid
-  });
+  return [{slug : "1"}, {slug : "2"}, {slug : "3"}, {slug : "4"}];
+  // return data.data.map((item) => {
+  //   slug : item.postid
+  // });
 }
 
-export default function Post({params : {slug}}) {
+export default function Page({params}) {
+  const {slug} = params;
   const mainP = data;
   const post = mainP?.data[slug-1];
 
@@ -31,10 +34,14 @@ export default function Post({params : {slug}}) {
   }else{
   return (
     <main className="flex flex-col justify-center w-[100%]">
+      <Suspense>
       <Header_one />
+      </Suspense>
       <div className="flex flex-row justify-center">
         <div className="lg:w-[1024px] w-[100%] flex flex-col justify-center">
+          <Suspense>
           <Header_two />
+          </Suspense>
           <section className="p-8 bg-white text-gray-600">
             <div className="flex mb-7">
               <a href="/" className="hover:cursor-pointer">
@@ -46,7 +53,7 @@ export default function Post({params : {slug}}) {
             <div className="">
               <div className="p-5">
                 <h2 className="text-xl font-bold text-center border-black mb-2">{post.title}</h2>
-                <Image src={post.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
+                <Image src={post.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} alt="" />
                 <p className="mb-5 text-base">
                   {post.content}
                 </p>
@@ -108,7 +115,9 @@ export default function Post({params : {slug}}) {
               </div>
             </div>
           </section>
-          <Footer />
+          <Suspense>
+          <Footer/>
+          </Suspense>
         </div>
       </div>
     </main>

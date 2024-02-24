@@ -15,7 +15,7 @@ export default function NotFoundPage() {
           <Header_two />
           </Suspense>
           <section className="p-8 bg-white text-gray-600">
-            <p className="text-sm mb-4 py-40">
+            <p className="text-base mb-4 py-40">
               Halaman yang Anda cari tidak ditemukan. Coba cari lagi atau kembali ke halaman utama.
             </p>
             <a href="/" className="text-sm font-bold hover:underline hover:cursor-pointer"><IoIosArrowBack className="inline-block text-sm" /> Kembali ke halaman utama</a>

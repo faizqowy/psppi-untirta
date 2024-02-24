@@ -63,14 +63,14 @@ export default function Home() {
                   return(
                     <div key={index} className="p-5">
                       <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
-                      <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
+                      <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} alt="" />
                       <p className="mb-5 text-sm">
                         Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                         Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup
                         dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
                         sesuai standar sertifikasi dalam waktu yang mendesak.
                       </p>
-                      <a href="/post?postId=1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                      <a href="/post/1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                         Continue Reading
                       </a>
                       <div className="mt-5">
@@ -127,11 +127,11 @@ export default function Home() {
                 return(
                   <div key={index} className="p-5">
                     <h2 className="text-xl font-bold border-b border-black mb-2">{item.title}</h2>
-                    <Image src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
+                    <Image src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} alt="" />
                     <p className="mb-5 text-sm">
                       {item.content.slice(0, 200) + "..."}
                     </p>
-                    <a href={"/post?postId=" + (index+1)} className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                    <a href={"/post/" + (index+1)} className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                       Continue Reading
                     </a>
                     <div className="mt-5">

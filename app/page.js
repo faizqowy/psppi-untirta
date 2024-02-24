@@ -71,7 +71,7 @@ export default function Home() {
             >
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/vt1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image alt="" src="/images/vt1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -86,7 +86,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/vt2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <Image alt="" src="/images/vt2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -101,7 +101,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/vt4.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
+                  <Image alt="" src="/images/vt4.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -113,7 +113,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/vt3.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image alt="" src="/images/vt3.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -131,7 +131,7 @@ export default function Home() {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
-                  <Image src="/images/vt5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
+                  <Image alt="" src="/images/vt5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
                   <div className="self-center p-3 w-1/2">
                     <h1 className="text-2xl font-bold text-amber-700">
                       Program Studi
@@ -151,7 +151,7 @@ export default function Home() {
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
-                        <Image src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
+                        <Image alt="" src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
@@ -164,7 +164,7 @@ export default function Home() {
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
-                        <Image src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
+                        <Image alt="" src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
@@ -177,7 +177,7 @@ export default function Home() {
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
-                        <Image src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
+                        <Image alt="" src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
@@ -190,7 +190,7 @@ export default function Home() {
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
                       <a href="#">
-                        <Image src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
+                        <Image alt="" src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
@@ -209,14 +209,14 @@ export default function Home() {
                   return(
                     <div key={index} className="p-5">
                       <h2 className="text-xl font-bold border-b border-black mb-2">Sekilas Prodi Program Profesi Insinyur Untirta</h2>
-                      <Image src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
+                      <Image alt="" src="/images/article1.png" className="object-cover w-[100%] h-[130px] border-4 mb-3" width={1920} height={1080} />
                       <p className="mb-5 text-sm">
                         Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                         Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur. Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup
                         dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi
                         sesuai standar sertifikasi dalam waktu yang mendesak.
                       </p>
-                      <a href="/post?postId=1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                      <a href="/post/1" className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                         Continue Reading
                       </a>
                       <div className="mt-5">
@@ -273,11 +273,11 @@ export default function Home() {
                 return(
                   <div key={index} className="p-5">
                     <h2 className="text-xl font-bold border-b border-black mb-2">{item.title}</h2>
-                    <Image src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
+                    <Image alt="" src={item.img} className="object-cover w-[100%] h-[250px] border-4 mb-3" width={1920} height={1080} />
                     <p className="mb-5 text-sm">
                       {item.content.slice(0, 200) + "..."}
                     </p>
-                    <a href={"/post?postId=" + (index+1)} className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
+                    <a href={"/post/" + (index+1)} className="bg-gray-300 p-2 border-b border-black rounded-md hover:bg-gray-400 active:bg-gray-500 active:text-white duration-200">
                       Continue Reading
                     </a>
                     <div className="mt-5">

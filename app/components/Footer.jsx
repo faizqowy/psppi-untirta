@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   const footerStyle = {
@@ -23,7 +24,7 @@ const Footer = () => {
   return (
     <footer style={footerStyle}>
       <div>
-        <img src="/images/untirtalogo.jpg" alt="Logo" style={logoStyle} />
+        <Image src="/images/untirtalogo.jpg" alt="Logo UNTIRTA" width={80} height={80} style={logoStyle} />
         <div>
           <strong>Copyright © 2024 Prodi Program Profesi Insinyur UNTIRTA</strong>
         </div>

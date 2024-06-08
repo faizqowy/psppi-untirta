@@ -150,53 +150,53 @@ export default function Home() {
                 <li>
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
-                      <a href="#">
+                      <a href="/profil/about">
                         <Image alt="" src="/images/image1.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
-                      <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Tentang PS PPI</a>
+                      <a href="/profil/about">Tentang PS PPI</a>
                     </h3>
-                    <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/" className="w-[200px]">Apa itu PS PPI?</a>
+                    <p href="/profil/about" className="w-[200px]">Apa itu PS PPI?</p>
                   </div>
                 </li>
                 <li>
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
-                      <a href="#">
+                      <a href="/sistem-perkuliahan">
                         <Image alt="" src="/images/image2.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
-                      <a href="#">Program Reguler</a>
+                      <a href="/sistem-perkuliahan">Program Reguler</a>
                     </h3>
-                    <p className="w-[200px]">Penjelasan Program Reguler PS PPI</p>
+                    <p href="/sistem-perkuliahan" className="w-[200px]">Penjelasan Program Reguler PS PPI</p>
                   </div>
                 </li>
                 <li>
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
-                      <a href="#">
+                      <a href="/sistem-perkuliahan">
                         <Image alt="" src="/images/image3.png" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
-                      <a href="#">Program RPL</a>
+                      <a href="/sistem-perkuliahan">Program RPL</a>
                     </h3>
-                    <p className="w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
+                    <p href="/sistem-perkuliahan" className="w-[200px]">Penjelasan Program Rekognisi Pembelajaran Lampau</p>
                   </div>
                 </li>
                 <li>
                   <div className="text-center">
                     <div className="w-[180px] h-[180px] shadow-3xl rounded-full justify-center flex items-center hover:bg-blue-500 duration-500 mt-3 mx-auto">
-                      <a href="#">
+                      <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">
                         <Image alt="" src="/images/image4.jpg" className="object-cover rounded-full w-[150px] h-[150px]" width={200} height={200} />
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
                       <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Admisi</a>
                     </h3>
-                    <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/" className="w-[200px]">Penjelasan pendaftaran PS PPI</a>
+                    <p target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/" className="w-[200px]">Penjelasan pendaftaran PS PPI</p>
                   </div>
                 </li>
               </ul>

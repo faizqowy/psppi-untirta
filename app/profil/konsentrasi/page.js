@@ -35,48 +35,33 @@ export default function Home() {
                 keinsinyuran berikut ini (PP 25 Tahun 2019):
               </p>
 
-              <ul className="list-decimal mb-2 pl-8">
-                <li>Kebumian dan Energi</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>Teknik Geofisika</li>
-                  <li>Teknik Geomatika (dapat pula menerima dari Teknik Geodesi)</li>
-                </ul>
+              <h1 className={"text-xl font-bold py-2 mb-2 "  + montserrat.className}>
+                Sarjana (S1) teknik / D4 teknik 
+              </h1>
+              <ol className="list-decimal mb-2 pl-8">
+              <li>) Teknik Bangunan (Sipil atau Arsitektur)</li>
+              <li>) Teknik Perencanaan Perkotaan dan Wilayah</li>
+              <li>) Teknik Industri</li>
+              <li>) Teknik Mesin</li>
+              <li>) Teknik Kimia</li>
+              <li>) Teknik Material</li>
+              <li>) Teknik Elektro</li>
+              <li>) Teknik Telekomunikasi</li>
+              <li>) Teknik Informatika/ Informatika</li>
+              <li>) Teknik Metalurgi</li>
+              <li>) Teknik Lingkungan</li>
+              <li>) Teknik Kelautan</li>
+              <li>) Teknik Perkapalan.</li>
+              </ol>
+              <h1 className={"text-xl font-bold py-2 mb-2 "  + montserrat.className}>
+                S.Si dengan Pilihan Bidang 
+              </h1>
+              Matematika/Fisika/Kimia/Geografi/Astronomi/Lainnya 
+              (Hanya bisa melalui PSPPI Jalur Reguler)
 
-                <li>Rekayasa Sipil dan Lingkungan Terbangun</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>Teknik Sipil</li>
-                  <li>Perencanaan Wilayah Kota (dapat pula menerima dari Planologi)</li>
-                </ul>
-
-                <li>Industri</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>Teknik Mesin</li>
-                  <li>Teknik Kimia</li>
-                  <li>Teknik Industri</li>
-                  <li>Teknik Fisika</li>
-                  <li>Teknik Material</li>
-                </ul>
-
-                <li>Konservasi dan Pengelolaan Sumber Daya Alam</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>Teknik Lingkungan (dapat pula menerima dari Teknik Penyehatan)</li>
-                </ul>
-
-                <li>Pertanian dan Hasil Pertanian</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>(tidak ada di Untirta)</li>
-                </ul>
-
-                <li>Teknologi Kelautan dan Perkapalan</li>
-                <ul className="list-disc mb-2 pl-8">
-                  <li>Teknik Kelautan</li>
-                  <li>Teknik Perkapalan</li>
-                  <li>Teknik Sistem Perkapalan</li>
-                  <li>Teknik Transportasi Laut</li>
-                </ul>
-
-                <li>Aeronotika dan Astronotika – (tidak ada di Untirta)</li>
-              </ul>
+              <h1 className={"text-xl font-bold py-2 mb-2 "  + montserrat.className}>
+                S.Pd Teknik (Hanya bisa melalui PSPPI Jalur Reguler)
+              </h1>              
             </div>
           </section>
           <Footer />

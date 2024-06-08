@@ -32,7 +32,7 @@ export default function Home() {
               </h1>
 
               <h2 className="text-3xl mb-2">Struktur Kurikulum PSPPI Untirta</h2>
-              <table className="table-auto w-full mb-24 md:text-base text-xs text-center">
+              <table className="table-auto w-full mb-16 md:text-base text-xs text-center">
                 <thead>
                   <tr>
                     <th className="py-2 border-x border-t">Semester</th>
@@ -107,6 +107,13 @@ export default function Home() {
                   </tr>
                 </tbody>
               </table>
+
+              <h2 className="text-3xl mb-2">Kurikulum Kelas (RPL)</h2>
+              <ul className="list-disc list-inside mb-24">
+                <li className="mb-2"><strong>Penyelenggaraan RPL</strong> berdasarkan pada PermendikbudristekNomor 41 tahun 2021. Kelas RPL dapat ditempuh bila calon mahasiswa sudah menempuh pendidikan perguruan tinggi sebelumnya dan memiliki pengalaman bekerja dan kompetensi atau keterampilan yang sesuai dengan bidang keinsinyurannya.</li>
+                <li className="mb-2"><strong>Tidak ada</strong> perkuliahan tatap muka, diganti dengan mengisi form capaian (FAIP)</li>
+                <li className="mb-2">Waktu perkuliahan selama 1 semester</li>                
+              </ul>
 
               <h2 className="text-3xl mb-2">Capaian Pembelajaran Lulusan Minimum:</h2>
 

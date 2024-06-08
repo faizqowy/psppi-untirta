@@ -34,9 +34,8 @@ export default function Home() {
 
               <strong className="mb-2">MANAJEMEN PROGRAM STUDI PROGRAM PROFESI INSINYUR</strong>
               <p className="mb-7">
-                <strong className="mb-2">Ketua Program Studi:</strong> -
+                <strong className="mb-2">Ketua Program Studi:</strong> Dr. Eng. Ir. Teguh Firmansyah, M.T., IPM.<br />
                 <br />
-                <strong className="mb-2">Sekretaris Program Studi:</strong> -
               </p>
 
               <h3 className="font-semibold text-lg">Dosen Pengampu Mata Kuliah :</h3>
@@ -44,61 +43,53 @@ export default function Home() {
                 <thead>
                   <tr>
                     <th className="border border-gray-400 px-2 py-2">No</th>
-                    <th className="border border-gray-400 py-2">NIDN</th>
-                    <th className="border border-gray-400 py-2">Nama</th>
-                    <th className="border border-gray-400 py-2">Status</th>
-                    <th className="border border-gray-400 py-2">Homebase</th>
-                    <th className="border border-gray-400 py-2">Mata Kuliah Di Ampu</th>
+                    <th className="border border-gray-400 py-2">NIP</th>
+                    <th className="border border-gray-400 py-2">Nama Dosen</th>
+                    <th className="border border-gray-400 py-2">Keterangan</th>
                   </tr>
                 </thead>
                 <tbody className="text-center">
                   <tr>
                     <td className="border border-gray-400 py-2">1</td>
-                    <td className="border border-gray-400 py-2">0002037602</td>
-                    <td className="border border-gray-400 py-2">ASEP RIDWAN</td>
-                    <td className="border border-gray-400 py-2">Tetap</td>
-                    <td className="border border-gray-400 py-2">S2 Teknik Industri</td>
-                    <td className="border border-gray-400 py-2">Seminar</td>
+                    <td className="border border-gray-400 py-2">198710212012121001</td>
+                    <td className="border border-gray-400 py-2">Dr. Eng. Ir. Teguh Firmansyah, M.T., IPM.</td>
+                    <td className="border border-gray-400 py-2">Ir.,IPM,Dr.Eng</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 py-2">2</td>
-                    <td className="border border-gray-400 py-2">0021277030</td>
-                    <td className="border border-gray-400 py-2">SIRAJUDDIN</td>
-                    <td className="border border-gray-400 py-2">Tetap</td>
-                    <td className="border border-gray-400 py-2">S2 Teknik Industri</td>
-                    <td className="border border-gray-400 py-2">Kode Etik dan Etika Profesi Insinyur</td>
+                    <td className="border border-gray-400 py-2">197612132008121001</td>
+                    <td className="border border-gray-400 py-2">Dr. Eng. Ir. Bobby Kurniawan, ST., MT., IPU.</td>
+                    <td className="border border-gray-400 py-2">Ir.,IPU,Dr.Eng</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 py-2">3</td>
-                    <td className="border border-gray-400 py-2">0008057604</td>
-                    <td className="border border-gray-400 py-2">SUPRIYANTO</td>
-                    <td className="border border-gray-400 py-2">Tetap</td>
-                    <td className="border border-gray-400 py-2">S1 Informatika</td>
-                    <td className="border border-gray-400 py-2">Studi Kasus</td>
+                    <td className="border border-gray-400 py-2">197712212009121002</td>
+                    <td className="border border-gray-400 py-2">Dr. Ir. Sirajuddin, ST., MT.,IPU.</td>
+                    <td className="border border-gray-400 py-2">Ir.,IPU,DR.</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 py-2">4</td>
-                    <td className="border border-gray-400 py-2">0013127604</td>
-                    <td className="border border-gray-400 py-2">BOBBY KURNIAWAN</td>
-                    <td className="border border-gray-400 py-2">Tetap</td>
-                    <td className="border border-gray-400 py-2">S1 Teknik Industri</td>
-                    <td className="border border-gray-400 py-2">Profesionalisme Keinsinyuran</td>
+                    <td className="border border-gray-400 py-2">1976601132009122001</td>
+                    <td className="border border-gray-400 py-2">Dr. Marta Pramudita, S.T., M.T</td>
+                    <td className="border border-gray-400 py-2">Dr.</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 py-2">5</td>
-                    <td className="border border-gray-400 py-2"></td>
-                    <td className="border border-gray-400 py-2">EDIYANTO ARIEF</td>
-                    <td className="border border-gray-400 py-2">Industri</td>
-                    <td className="border border-gray-400 py-2"></td>
-                    <td className="border border-gray-400 py-2">Keamanan, Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)</td>
+                    <td className="border border-gray-400 py-2">198403132019032009</td>
+                    <td className="border border-gray-400 py-2">Shofiatul Ula, M.Eng</td>
+                    <td className="border border-gray-400 py-2">M.Eng</td>
                   </tr>
                   <tr>
                     <td className="border border-gray-400 py-2">6</td>
                     <td className="border border-gray-400 py-2"></td>
-                    <td className="border border-gray-400 py-2">WAHIDIN</td>
-                    <td className="border border-gray-400 py-2">Industri</td>
+                    <td className="border border-gray-400 py-2">Ir. Wahidin, ST., MM</td>
+                    <td className="border border-gray-400 py-2">Ir,IPM,Asean,. Eng</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-400 py-2">7</td>
                     <td className="border border-gray-400 py-2"></td>
-                    <td className="border border-gray-400 py-2">Praktek Keinsinyuran</td>
+                    <td className="border border-gray-400 py-2">Ir. Ediyanto Arief, ST, SH, MP, MT</td>
+                    <td className="border border-gray-400 py-2">Ir, IPU</td>
                   </tr>
                 </tbody>
               </table>

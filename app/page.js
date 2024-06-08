@@ -72,12 +72,12 @@ export default function Home() {
               <SwiperSlide>
                 <div className="flex text-right">
                   <Image alt="" src="/images/vt1.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold text-amber-700">
+                  <div className="self-center p-3 w-1/2 h-[300px]">
+                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base text-center">
+                    <p className="text-base text-center h-[70%]">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>
@@ -87,12 +87,12 @@ export default function Home() {
               <SwiperSlide>
                 <div className="flex text-right">
                   <Image alt="" src="/images/vt2.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
-                  <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold text-amber-700">
+                  <div className="self-center p-3 w-1/2 h-[300px]">
+                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base text-center">
+                    <p className="text-base text-center h-[70%]">
                       Program Studi Program Profesi Insinyur (PSPPI) sebagai lingkup dari amanat Undang-Undang Nomor 11 Tahun 2014 tentang Keinsinyuran merupakan upaya pemerintah mempercepat terciptanya tenaga insinyur Indonesia yang
                       mandiri, bertanggung jawab, dan memiliki etika profesi serta kualifikasi sesuai standar sertifikasi dalam waktu yang mendesak.
                     </p>
@@ -102,24 +102,24 @@ export default function Home() {
               <SwiperSlide>
                 <div className="flex text-right">
                   <Image alt="" src="/images/vt4.jpg" className="object-cover w-[50%] h-[300px] object-left" width={1920} height={1080} />
-                  <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold text-amber-700">
+                  <div className="self-center p-3 w-1/2 h-[300px]">
+                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base text-center">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
+                    <p className="text-base text-center h-[70%]">Para sarjana teknik/teknik terapan/sains yang mengikuti PSPPI ini akan memperoleh sertifikat profesi Insinyur dan berhak menggunakan gelar Insinyur (Ir.).</p>
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="flex text-right">
                   <Image alt="" src="/images/vt3.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold text-amber-700">
+                  <div className="self-center p-3 w-1/2 h-[300px]">
+                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base text-center">
+                    <p className="text-base text-center h-[70%]">
                       Program Pendidikan Reguler dan Program Rekognisi Pembelajaran Lampau (RPL), dengan demikian UNTIRTA
                       <br />
                       memiliki wewenang memberikan Gelar Insinyur (Ir.) bagi lulusan PSPPI. Pengelolaan PSPPI UNTIRTA dilaksanakan
@@ -132,12 +132,12 @@ export default function Home() {
               <SwiperSlide>
                 <div className="flex text-right">
                   <Image alt="" src="/images/vt5.jpg" className="object-cover w-[50%] h-[300px] object-right" width={1920} height={1080} />
-                  <div className="self-center p-3 w-1/2">
-                    <h1 className="text-2xl font-bold text-amber-700">
+                  <div className="self-center p-3 w-1/2 h-[300px]">
+                    <h1 className="text-2xl font-bold text-amber-700 text-center h-[30%]">
                       Program Studi
                       <br /> Program Profesi Insinyur
                     </h1>
-                    <p className="text-base text-center">
+                    <p className="text-base text-center h-[70%]">
                       Untuk memenuhi kebutuhan jumlah insinyur di masa sekarang ini, maka Pemerintah Republik Indonesia melalui Direktur Jenderal Kelembagaan Ilmu Pengetahuan Teknologi dan Pendidikan Tinggi yang berada di bawah Kementerian
                       Riset, Teknologi dan Pendidikan Tinggi memberikan mandat kepada 40 perguruan tinggi baik negeri maupun swasta untuk menyelenggarakan Program Profesi Insinyur.
                     </p>

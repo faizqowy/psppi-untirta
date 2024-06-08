@@ -35,13 +35,17 @@ export default function Home() {
               <table className="table-auto w-full mb-24 md:text-base text-xs text-center">
                 <thead>
                   <tr>
-                    <th className="py-2 border">Semester</th>
-                    <th className="py-2 border">Kode Mata Kuliah</th>
-                    <th className="py-2 border">Mata Kuliah</th>
-                    <th className="py-2 border">SKS (Tatap Muka)</th>
-                    <th className="py-2 border">SKS (Praktik)</th>
-                    <th className="py-2 border">Dosen Pengampu</th>
-                    <th className="py-2 border">Keterangan Pelaksanaan</th>
+                    <th className="py-2 border-x border-t">Semester</th>
+                    <th className="py-2 border-x border-t">Kode Mata Kuliah</th>
+                    <th className="py-2 border-x border-t">Mata Kuliah</th>
+                    <th className="py-2 border" colSpan={6}>Bobot SKS</th>
+                  </tr>
+                  <tr>
+                    <th className="py-2 border-x border-b"></th>
+                    <th className="py-2 border-x border-b"></th>
+                    <th className="py-2 border-x border-b"></th>
+                    <th className="py-2 border" colSpan={3}>Tatap Muka</th>
+                    <th className="py-2 border" colSpan={3}>Praktik</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -49,73 +53,57 @@ export default function Home() {
                     <td className="border-l py-1 text-center">1</td>
                     <td className="border py-1">PII621101</td>
                     <td className="border py-1">Kode Etik dan Etika Profesi</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1">Sirajuddin</td>
-                    <td className="border py-1">Kampus</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
                   </tr>
                   <tr>
                     <td className="border-l py-1 text-center"></td>
                     <td className="border py-1">PII621103</td>
                     <td className="border py-1">Profesionalisme Keinsinyuran</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1">Bobby Kurniawan</td>
-                    <td className="border py-1">Kampus</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
                   </tr>
                   <tr>
                     <td className="border-l py-1 text-center"></td>
                     <td className="border py-1">PII621105</td>
                     <td className="border py-1">Keamanan, Kesehatan, Keselamatan Kerja dan Lingkungan (K3L)</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1">Ediyanto Arief</td>
-                    <td className="border py-1">Kampus dan Industri</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
                   </tr>
                   <tr>
                     <td className="border-l py-1 text-center"></td>
                     <td className="border py-1">PII621107</td>
                     <td className="border py-1">Praktek Keinsinyuran</td>
-                    <td className="border py-1 text-center">2</td>
-                    <td className="border py-1 text-center">10</td>
-                    <td className="border py-1">Wahidin</td>
-                    <td className="border py-1">Kampus dan Industri</td>
+                    <td className="border py-1 text-center" colSpan={3}>2</td>
+                    <td className="border py-1 text-center" colSpan={3}>10</td>
                   </tr>
                   <tr>
                     <td className="border-l py-1 text-center"></td>
                     <td className="border py-1"></td>
-                    <td className="border py-1">total</td>
-                    <td className="border py-1 text-center">5</td>
-                    <td className="border py-1 text-center">13</td>
-                    <td className="border py-1"></td>
-                    <td className="border py-1"></td>
+                    <td className="border py-1">Total</td>
+                    <td className="border py-1 text-center" colSpan={3}>5</td>
+                    <td className="border py-1 text-center" colSpan={3}>13</td>
                   </tr>
                   <tr>
                     <td className="border-l border-t py-1 text-center">2</td>
                     <td className="border py-1">PII621102</td>
                     <td className="border py-1">Studi Kasus</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1 text-center">3</td>
-                    <td className="border py-1">Supriyanto</td>
-                    <td className="border py-1">Kampus dan Industri</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
+                    <td className="border py-1 text-center" colSpan={3}>3</td>
                   </tr>
                   <tr>
                     <td className="border-l py-1 text-center"></td>
                     <td className="border py-1">PII621104</td>
                     <td className="border py-1">Seminar</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1 text-center">1</td>
-                    <td className="border py-1">Asep Ridwan</td>
-                    <td className="border py-1">Kampus dan Industri</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
+                    <td className="border py-1 text-center" colSpan={3}>1</td>
                   </tr>
                   <tr>
                     <td className="border-l border-b py-1 text-center"></td>
                     <td className="border py-1"></td>
-                    <td className="border py-1">total</td>
-                    <td className="border py-1 text-center">2</td>
-                    <td className="border py-1 text-center">4</td>
-                    <td className="border py-1"></td>
-                    <td className="border py-1"></td>
+                    <td className="border py-1">Total</td>
+                    <td className="border py-1 text-center" colSpan={3}>2</td>
+                    <td className="border py-1 text-center" colSpan={3}>4</td>
                   </tr>
                 </tbody>
               </table>

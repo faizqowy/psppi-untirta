@@ -155,9 +155,9 @@ export default function Home() {
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
-                      <a href="#">Tentang PS PPI</a>
+                      <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Tentang PS PPI</a>
                     </h3>
-                    <p className="w-[200px]">Apa itu PS PPI?</p>
+                    <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/" className="w-[200px]">Apa itu PS PPI?</a>
                   </div>
                 </li>
                 <li>
@@ -194,9 +194,9 @@ export default function Home() {
                       </a>
                     </div>
                     <h3 className="text-amber-700 text-xl mt-2 hover:text-amber-950 duration-500">
-                      <a href="#">Admisi</a>
+                      <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Admisi</a>
                     </h3>
-                    <p className="w-[200px]">Penjelasan pendaftaran PS PPI</p>
+                    <a target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/" className="w-[200px]">Penjelasan pendaftaran PS PPI</a>
                   </div>
                 </li>
               </ul>

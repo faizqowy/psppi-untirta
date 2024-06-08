@@ -48,13 +48,12 @@ export default function Home() {
               <li>Jl. Jend. Sudirman KM3, Cilegon, 42435, Banten</li>
               <li>Kampus Untirta, Cilegon</li>
               <li>Telp. +62 254376712</li>
-              <li>E-mail & Website :  http://ft.untirta.ac.id/</li>
+              <li>E-mail & Website :  psppi@untirta.ac.id</li>
             </ul>
 
             <ul className="my-4">
-              <li>Contact Person :</li>
-              <li>-</li>
-              <li>No. HP/WA : -</li>
+              <li>Contact Person : Dr. Eng. Ir. Teguh Firmansyah, M.T., IPM.</li>
+              <li>No. HP/WA : 081321661551</li>
             </ul>
           </section>
           <Footer />

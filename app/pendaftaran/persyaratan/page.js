@@ -6,6 +6,8 @@ import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
 
 import { Suspense } from "react";
+import { Montserrat } from "next/font/google";
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -27,84 +29,54 @@ export default function Home() {
               </h1>
             </div>
             <h1
-              className="text-3xl font-bold mb-4"
-              style={{ fontFamily: "Montserrat" }}
+              className={"text-3xl font-bold mb-4" + montserrat.className}
             >
               Persyaratan Pendaftaran
             </h1>
 
-            <hr className="mx-auto my-2 md:my-6 dark:bg-gray-300" />
-
-            <blockquote className="text-xl italic">
-              <p class="text-justify">
-                Persyaratan pendaftaran juga dapat di lihat pada website
-                <strong> https://untirta.ac.id/</strong>
-              </p>
-            </blockquote>
-            <hr class="lg:w-[100%] w-[100%] h-0.5 bg-gray-50 border border-gray-0 rounded my-6 dark:bg-gray-300 mb-0" />
             <p class="mb-2">
               Peminat Program Profesi Insinyur Universitas Sultan Ageng Tirtayasa (Untirta) wajib memenuhi persyaratan sebagai berikut
               :
             </p>
 
-            <ul className="list-decimal pl-10 my-4 mb-2">
-              <li>
-                Berlatar belakang Sarjana (S1) bidang teknik, sarjana terapan
-                bidang teknik, sarjana pendidikan bidang teknik, atau sarjana
-                bidang sains, yang didapat dari perguruan tinggi yang
-                terakreditasi.
-              </li>
-              <li>Mendaftar untuk mengikuti pendidikan profesi insinyur</li>
-              <li>
-                Sehat jasmani, rohani, bebas narkotika, psikotropika, dan zat
-                adiktif.
-              </li>
-              <li>
-                Telah memiliki pengalaman kerja dalam praktik bidang
-                keinsinyuran paling sedikit 2 (dua) tahun.
-              </li>
-              <li>
-                Syarat khusus untuk sarjana pendidikan bidang teknik atau sains
-                yaitu telah melakukan program penyetaraan dengan sarjana bidang
-                teknik atau sarjana terapan bidang teknik setelah berpengalaman
-                kerja di bidang keinsinyuran paling sedikit 3 (tiga) tahun; atau
-                memiliki pengalaman kerja keinsinyuran lebih dari 5 (lima)
-                tahun.
-              </li>
-              <li>
-                Pengalaman kerja dibuktikan dengan surat pengalaman kerja dari
-                masing-masing lembaga tempat yang bersangkutan bekerja.
-              </li>
-              <li>
-                Bidang studi yang tercantum pada ijazah Sarjana/ Sarjana
-                Terapan/ Diploma IV ada dalam list Konsentrasi Pembimbingan
-                PSPPI Untirta.
-              </li>
+            <ul className="list-decimal pl-10 my-4 mb-16">
+            
+            <li>Berlatar belakang Sarjana (S1) bidang teknik /D4 Teknik, sarjana terapan bidang teknik, sarjana pendidikan bidang teknik, atau sarjana bidang sains, yang didapat dari perguruan tinggi yang terakreditasi.</li>
+            <li>Dapat mendaftar pendidikan profesi insinyur melalui program reguler atau program RPL.</li>
+            <li>Persyaratan Program Reguler</li>
+              <ul className="list-disc list-inside">
+                <li>S1 Teknik/D4 Teknik fresh graduate/pengalaman keinsinyuran/keteknikan antara 0 - 2 tahun yang terhitung sejak lulus Pendidikan S1 Teknik/D4 Teknik fresh graduate</li>
+                <li>S.Si dan S.Pd Teknik dengan pengalaman keinsinyuran/keteknikan minimal 4 tahun yang terhitung sejak lulus Pendidikan Sarjana S1 Teknik/D4 Teknik</li>
+              </ul>
+
+            <li>Persyaratan Program Rekognisi Pembelajaran Lampau (RPL)</li>
+              <ul className="list-disc list-inside">
+                <li>S1 Teknik/D4 Teknik dengan pengalaman keinsinyuran minimal 2 tahun yang terhitung sejak lulus Pendidikan Sarjana S1 Teknik/D4 Teknik .</li>
+              </ul>
+            <li>Untuk program RPL memiliki pengalaman kerja dibuktikan dengan surat keterangan dari instansi/ perusahaan/ lembaga tempat yang bersangkutan bekerja.</li>
+            <li>Mengikuti seleksi wawancara dengan menyertakan curriculum vitae lengkap.</li>
             </ul>
 
+            <h1
+              className={"text-3xl font-bold mb-4" + montserrat.className}
+            >
+              Dokumen yang dipersiapkan
+            </h1>
             <p className="mb-2">
               Persyaratan Pendaftaran PSPPI Untirta dengan menyertakan dokumen
               sebagai berikut:
             </p>
-
             <ul className="list-decimal pl-10 my-2">
-              <li>Foto copy Ijazah Sarjana/ Sarjana Terapan/ Diploma IV</li>
-              <li>Foto copy Transkrip Sarjana/ Sarjana Terapan/ Diploma IV</li>
-              <li>
-                Surat Keterangan Pengalaman Kerja dari Instansi/Perusahaan
-                minimal selama minimal 2 tahun
-              </li>
-              <li>Foto copy KTP</li>
-              <li>
-                Surat Keterangan Berbadan Sehat untuk mengikuti kuliah PSPPI Untirta
-              </li>
-              <li>Foto berwarna 4×6 cm sebanyak 3 (tiga) lembar.</li>
-              <li>Bukti pelunasan biaya pendaftaran program.</li>
+              <li>Mengisi curriculum vitae (download)</li>
+              <li>Copy Ijazah S1.</li>
+              <li>Copy Transkrip S1.</li>
+              <li>Surat Keterangan Pengalaman Kerja dari Instansi/ Perusahaan khusu untuk program RPL. </li>
+              <li>Copy KTP.</li>
+              <li>Pas Foto terbaru.</li>
+              <li>Surat pernyataan keaslian dokumen. (download)</li>
+              <li>Surat pernyataan kesangupan pembiayaan. (download)</li>
+
             </ul>
-            <p>
-              Surat pernyataan kesediaan mengikuti PSPPI Untirta dan Surat
-              pernyataan keaslian dokumen.
-            </p>
           </section>
           <Footer />
         </div>

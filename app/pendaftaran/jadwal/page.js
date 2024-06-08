@@ -3,8 +3,13 @@ import Header_two from "../../components/Header_two";
 import Footer from "../../components/Footer";
 import { IoHomeSharp } from "react-icons/io5";
 import { IoIosArrowForward } from "react-icons/io";
+import { Montserrat } from "next/font/google";
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 import { Suspense } from "react";
+
+
+
 
 export default function Home() {
   return (
@@ -22,16 +27,16 @@ export default function Home() {
               </a>
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <h1 className="text-sm font-bold ml-1 mt-1">
-                Jadwal Penting Pendaftaran
+                Jadwal Pendaftaran
               </h1>
             </div>
 
-            <h1 className="text-3xl font-bold mb-2" style={{fontFamily:'Montserrat'}}>
-              Jadwal Penting Pendaftaran
+            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className} >
+              Jadwal Pendaftaran
             </h1>
-            <p className="font-bold mb-2">Pendaftaran:</p>
+            {/* <p className="font-bold mb-2">Pendaftaran:</p> */}
 
-            <p className="mb-2">
+            {/* <p className="mb-2">
               Pendaftaran dilaksanakan pada 19 Juni – 12 Juli 2019 yang
               meliputi:
             </p>
@@ -58,40 +63,39 @@ export default function Home() {
             <p className="mb-2">
               Pelaksanaan Tes Wawancara tiap calon mahasiswa dilaksanakan 1 hari
               kurang lebih selama 30 menit:
-            </p>
+            </p> */}
 
-            <table className="border-collapse w-full mb-2">
+            <table className="border-collapse w-full mb-10">
               <tbody>
                 {/* Baris pertama */}
                 <tr>
-                  <td className="border p-2">Hari, Tanggal</td>
-                  <td className="border p-2">:</td>
+                  <td className="border p-2">Pendaf. Gel 3</td>
+                  <td className="border p-2 flex justify-center">:</td>
                   <td className="border p-2">
-                    Sabtu – Minggu, 27-28 Juli 2019
+                    10 Juni - 18 Juli 2024
                   </td>
                 </tr>
 
                 {/* Baris kedua */}
                 <tr>
-                  <td className="border p-2">Waktu</td>
-                  <td className="border p-2">:</td>
-                  <td className="border p-2">08.00 – 16.00</td>
+                  <td className="border p-2">Seleksi</td>
+                  <td className="border p-2 flex justify-center">:</td>
+                  <td className="border p-2">20 Juli 2024</td>
                 </tr>
 
                 <tr>
-                  <td className="border p-2">Tempat</td>
-                  <td className="border p-2">:</td>
-                  <td className="border p-2">
-                    <p className="mb-8">
-                      Program Studi Program Profesi Insinyur
-                    </p>
-                    <p>Gedung Pascasarjana Lt. 2</p>
-                  </td>
+                  <td className="border p-2">Hasil Seleksi</td>
+                  <td className="border p-2 flex justify-center">:</td>
+                  <td className="border p-2">23 Juli 2024</td>
                 </tr>
               </tbody>
             </table>
+            
+            <p className="mb-2 font-bold">Pendaftaran:</p>
+            <p>Untuk melakukan pendaftaran, silakan tekan tombol di bawah ini.</p>
+            <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://pmb.untirta.ac.id/pascasarjana-2024/" target="_blank">Daftar Sekarang</a>
 
-            <p className="mb-2 font-bold">Pengumuman Hasil Seleksi:</p>
+            {/* <p className="mb-2 font-bold">Pengumuman Hasil Seleksi:</p>
 
             <p className="mb-2">
               Hasil seleksi diumumkan pada tanggal 31 Juli 2019 di Website
@@ -114,14 +118,11 @@ export default function Home() {
 
             <table className="border-collapse w-full mb-2">
               <tbody>
-                {/* Baris pertama */}
                 <tr>
                   <td className="border p-2 font-bold" colSpan="3">
                     Pengisian data secara online
                   </td>
-                </tr>
-
-                {/* Baris kedua */}
+                </tr>                
                 <tr>
                   <td className="border p-2 font-bold">Tanggal</td>
                   <td className="border p-2">:</td>
@@ -131,14 +132,12 @@ export default function Home() {
                   </td>
                 </tr>
 
-                {/* Baris ketiga */}
                 <tr>
                   <td className="border p-2 font-bold" colSpan="3">
                     Bayar SPP (Pembayaran Biaya Pendidikan Semester)
                   </td>
                 </tr>
 
-                {/* Baris keempat */}
                 <tr>
                   <td className="border p-2 font-bold">Tanggal</td>
                   <td className="border p-2">:</td>
@@ -148,14 +147,14 @@ export default function Home() {
                   </td>
                 </tr>
 
-                {/* Baris kelima */}
+                
                 <tr>
                   <td className="border p-2 font-bold" colSpan="3">
                     Verifikasi biodata (secara online dan harus datang ke BAKPM)
                   </td>
                 </tr>
 
-                {/* Baris keenam */}
+                
                 <tr>
                   <td className="border p-2 font-bold">Tanggal</td>
                   <td className="border p-2">:</td>
@@ -165,14 +164,14 @@ export default function Home() {
                   </td>
                 </tr>
 
-                {/* Baris ketujuh */}
+                
                 <tr>
                   <td className="border p-2 font-bold" colSpan="3">
                     Perwalian Mahasiswa (FRS Online)
                   </td>
                 </tr>
 
-                {/* Baris kedelapan */}
+                
                 <tr>
                   <td className="border p-2 font-bold">Tanggal</td>
                   <td className="border p-2">:</td>
@@ -197,7 +196,7 @@ export default function Home() {
               mahasiswa dengan besaran mengacu pada biaya di Persatuaan Insinyur
               Indonesia (PII), yang dibayarkan jika mahasiswa mengajukan dan
               lolos IPP/IPM/IPU dan dibayar sendiri oleh mahasiswa ke PII.
-            </p>
+            </p> */}
           </section>
           <Footer />
         </div>

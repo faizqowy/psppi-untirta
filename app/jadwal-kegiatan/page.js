@@ -24,8 +24,8 @@ export default function Home() {
               <IoIosArrowForward className="mt-2 inline-block text-sm" />
               <h1 className="text-sm font-bold ml-1 mt-1">Jadwal Kegiatan</h1>
             </div>
-            <h1 className="text-3xl font-bold mb-4">Jadwal Kegiatan</h1>
-            <table className="table-auto w-full">
+            <h1 className="text-3xl font-bold mb-16">Jadwal Kegiatan</h1>
+            <table className="table-auto w-full mb-16">
               <thead>
                 <tr>
                   <th className="px-4 py-2 border">Kegiatan</th>
@@ -35,137 +35,24 @@ export default function Home() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border px-4 py-2">Pendaftaran dan Seleksi Gelombang I</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">12 Agustus 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pendaftaran Program Profesi Insinyur (PPI)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">19 Agustus 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pengumuman Peserta Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">26 Agustus 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pelaksanaan Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">2 September 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pengumuman Lolos Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">9 September 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">.</td>
+                  <td className="border px-4 py-2">Pendaftaran Gelombang 3</td>
                   <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center"></td>
+                  <td className="border px-4 py-2 text-center">10 Juni - 18 Juli 2024</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2">Pendaftaran Ulang dan Penerimaan Mahasiswa PPI Gelombang I	</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">16 September 2024</td>
+                  <td className="border px-4 py-2">Seleksi</td>
+                  <td className="border px-4 py-2 text-center">Sabtu</td>
+                  <td className="border px-4 py-2 text-center">20 Juli 2024</td>
                 </tr>
                 <tr>
-                  <td className="border px-4 py-2">Pengisian sipmaba secara online(termasuk upload dokumen data)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">23 September 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Daftar Ulang Mahasiswa Baru (Pembayaran SPP)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">26 Agustus 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Perwalian Mahasiswa (FRS Online)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">30 September 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">.</td>
-                  <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center"></td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pendaftaran dan Seleksi Gelombang II</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">7 Oktober 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pendaftaran Program Profesi Insinyur (PPI)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">14 Oktober 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pengumuman Peserta Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">21 Oktober 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pelaksanaan Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">28 Oktober 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pengumuman Lolos Tes Wawancara</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">4 November 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">.</td>
-                  <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center"></td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pendaftaran Ulang dan Penerimaan Mahasiswa PPI Gelombang II	</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">11 November 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pengisian sipmaba secara online(termasuk upload dokumen data)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">18 November 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Daftar Ulang Mahasiswa Baru (Pembayaran SPP)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">25 November 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Perwalian Mahasiswa (FRS Online)</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">2 Desember 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">.</td>
-                  <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center"></td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Pelaksanaan Rekognisi Pembelajaran Lampau</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">9 Desember 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Minggu I: Pembekalan Tatap Muka</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">16 Desember 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Minggu II-XV: Komunikasi Online</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">23 Desember 2024</td>
-                </tr>
-                <tr>
-                  <td className="border px-4 py-2">Minggu XVI: Tatap Muka ke-2	</td>
-                  <td className="border px-4 py-2 text-center">Senin</td>
-                  <td className="border px-4 py-2 text-center">30 Desember 2024</td>
+                  <td className="border px-4 py-2">Hasil Seleksi</td>
+                  <td className="border px-4 py-2 text-center">Selasa</td>
+                  <td className="border px-4 py-2 text-center">23 Juli 2024</td>
                 </tr>
               </tbody>
             </table>
+            <p>Untuk info lebih lanjut dapat mengunjungi website berikut :</p>
+            <a className="text-blue-800 hover:text-black hover:no-underline underline" target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Info Lanjut</a>
           </section>
           <Footer />
         </div>

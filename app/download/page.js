@@ -9,6 +9,8 @@ import { FaHome } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { FaDownload } from "react-icons/fa6";
 
+// HALO
+
 
 import Image from "next/image";
 

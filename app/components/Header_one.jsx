@@ -11,7 +11,7 @@ export default function Header_one() {
                             UNTIRTA.ac.id
                         </a>
                         <div className="flex searchButton pt-0.5 ml-4 cursor-pointer hover:text-white">
-                            <input type="text " className="searchInput bg-transparent border-b border-gray-300 text-white focus:outline-none focus:border-white" placeholder="Cari di sini" />
+                            <input type="text" className="searchInput bg-transparent border-b border-gray-300 text-white focus:outline-none focus:border-white" placeholder="Cari di sini" />
                             <FaSearch />
                         </div>
                     </div>

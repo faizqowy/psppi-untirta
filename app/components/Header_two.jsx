@@ -73,23 +73,23 @@ export default function Header_two() {
           <div className="flex lg:justify-end justify-center">
             <div className="flex justify-between items-center">
               <Image
-                src="/images/untirtalogo.jpg"
-                alt="Unitrta Logo"
-                className="object-cover w-[50%] lg:h-[120px] h-[100px] object-right"
-                width={1920}
-                height={1080}
-              />
-              <Image
                 src="/images/kemendikbud.jpg"
                 alt="Kemendikbud"
-                className="object-cover w-[50%] lg:h-[120px] h-[100px] object-right"
+                className="object-cover md:p-1 w-[50%] lg:h-[120px] h-[100px] object-right"
                 width={1920}
                 height={1080}
               />
               <Image
-                src="/images/pii.jpg"
+                src="/images/untirtalogo.jpg"
+                alt="Unitrta Logo"
+                className="object-cover md:p-1 w-[50%] lg:h-[120px] h-[100px] object-right"
+                width={1920}
+                height={1080}
+              />
+              <Image
+                src="/images/kampusmerdeka.png"
                 alt="PII Logo"
-                className="object-cover w-[50%] lg:h-[120px] h-[100px] object-right"
+                className="object-cover md:p-4 p-2 w-[50%] lg:h-[120px] h-[100px] object-right"
                 width={1920}
                 height={1080}
               />

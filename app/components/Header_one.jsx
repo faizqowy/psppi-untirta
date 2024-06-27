@@ -3,7 +3,7 @@ import './Headerone.css';
 
 export default function Header_one() {
     return (
-        <div className="bg-black shadow py-3">
+        <div className="bg-[#05285E] shadow py-3">
             <div className="flex justify-center">
                 <div className="lg:w-[78%] w-[100%] lg:mr-0 mr-4">
                     <div className="text-gray-300 text-xs flex justify-end">

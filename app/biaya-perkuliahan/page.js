@@ -36,7 +36,29 @@ export default function Home() {
               <p className="mb-2 mt-10">
                 Biaya perkuliahan Program Profesi Insinyur Universitas Sultan Ageng Tirtayasa (Untirta) adalah sebagai berikut:
               </p>
-              <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://pmb.untirta.ac.id/pascasarjana-2024/" terget="_blank">Cek Biaya</a>
+              
+              <table className="table-auto w-full mb-16">
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">Pendaftaran</td>
+                  <td className="border px-4 py-2">Rp. 500.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">SPP per Semester Program Reguler</td>
+                  <td className="border px-4 py-2">Rp. 8.500.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">SPP per Semester Program RPL</td>
+                  <td className="border px-4 py-2">Rp. 8.000.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Jaket Almamater, Kartu Perpustakaan</td>
+                  <td className="border px-4 py-2">Rp. 550.000,00</td>
+                </tr>
+              </tbody>
+              </table>
+
+              <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://penerimaan.untirta.ac.id/" target="_blank">Info Lengkap</a>
         
           </section>
 

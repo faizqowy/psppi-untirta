@@ -52,7 +52,7 @@ export default function Home() {
               </tbody>
             </table>
             <p>Untuk info lebih lanjut dapat mengunjungi website berikut :</p>
-            <a className="text-blue-800 hover:text-black hover:no-underline underline" target="_blank" href="https://pmb.untirta.ac.id/pascasarjana-2024/">Info Lanjut</a>
+            <a className="text-blue-800 hover:text-black hover:no-underline underline" target="_blank" href="https://penerimaan.untirta.ac.id/">Info Lanjut</a>
           </section>
           <Footer />
         </div>

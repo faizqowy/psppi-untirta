@@ -34,66 +34,65 @@ export default function Home() {
             <h1 className={"text-3xl font-bold mb-16 " + montserrat.className} >
               Jadwal Pendaftaran
             </h1>
-            {/* <p className="font-bold mb-2">Pendaftaran:</p> */}
 
-            {/* <p className="mb-2">
-              Pendaftaran dilaksanakan pada 19 Juni – 12 Juli 2019 yang
-              meliputi:
-            </p>
-
-            <ul className="list-decimal pl-10 my-4">
-              <li>
-                Pembayaran biaya pendaftaran sebesar Rp 1.000.000,00 di
-                bank-bank yang ditunjuk
-              </li>
-              <li>
-                Calon mahasiswa akan mendapatkan{" "}
-                <span style={{ fontStyle: "italic" }}>username</span> dan{" "}
-                <span style={{ fontStyle: "italic" }}>password</span> untuk
-                melakukan akses pada Form Rekognisi Pembelajaran Lampau (Form
-                RPL) untuk melakukan{" "}
-                <span style={{ fontStyle: "italic" }}>self assessment</span>.
-              </li>
-            </ul>
-
-            <p className="mb-2 font-bold">
-              Pengumuman peserta Tes Wawancara mulai tanggal 17 Juli 2019:
-            </p>
-            <p className="mb- font-bold">Pelaksanaan Tes Wawancara:</p>
-            <p className="mb-2">
-              Pelaksanaan Tes Wawancara tiap calon mahasiswa dilaksanakan 1 hari
-              kurang lebih selama 30 menit:
-            </p> */}
-
-            <table className="border-collapse w-full mb-10">
+            <table className="table-auto w-full mb-16">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 border">Kegiatan</th>
+                  <th className="px-4 py-2 border">Hari</th>
+                  <th className="px-4 py-2 border">Tanggal</th>
+                </tr>
+              </thead>
               <tbody>
-                {/* Baris pertama */}
                 <tr>
-                  <td className="border p-2">Pendaf. Gel 3</td>
-                  <td className="border p-2 flex justify-center">:</td>
-                  <td className="border p-2">
-                    10 Juni - 18 Juli 2024
-                  </td>
+                  <td className="border px-4 py-2">Periode Pendaftaran</td>
+                  <td className="border px-4 py-2 text-center"></td>
+                  <td className="border px-4 py-2 text-center">1 Juli - 25 Juli 2024</td>
                 </tr>
-
-                {/* Baris kedua */}
                 <tr>
-                  <td className="border p-2">Seleksi</td>
-                  <td className="border p-2 flex justify-center">:</td>
-                  <td className="border p-2">20 Juli 2024</td>
+                  <td className="border px-4 py-2">Seleksi</td>
+                  <td className="border px-4 py-2 text-center">Sabtu</td>
+                  <td className="border px-4 py-2 text-center">27 Juli 2024</td>
                 </tr>
-
                 <tr>
-                  <td className="border p-2">Hasil Seleksi</td>
-                  <td className="border p-2 flex justify-center">:</td>
-                  <td className="border p-2">23 Juli 2024</td>
+                  <td className="border px-4 py-2">Hasil Seleksi</td>
+                  <td className="border px-4 py-2 text-center">Rabu</td>
+                  <td className="border px-4 py-2 text-center">31 Juli 2024</td>
                 </tr>
               </tbody>
             </table>
+
+            <h1 className={"text-3xl font-bold mb-16 " + montserrat.className} >
+              Biaya Pendaftaran
+            </h1>
+
+            <table className="table-auto w-full mb-16">
+              <tbody>
+                <tr>
+                  <td className="border px-4 py-2">Pendaftaran</td>
+                  <td className="border px-4 py-2">Rp. 500.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">SPP per Semester Program Reguler</td>
+                  <td className="border px-4 py-2">Rp. 8.500.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">SPP per Semester Program RPL</td>
+                  <td className="border px-4 py-2">Rp. 8.000.000,00</td>
+                </tr>
+                <tr>
+                  <td className="border px-4 py-2">Jaket Almamater, Kartu Perpustakaan</td>
+                  <td className="border px-4 py-2">Rp. 550.000,00</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
             
             <p className="mb-2 font-bold">Pendaftaran:</p>
-            <p>Untuk melakukan pendaftaran, silakan tekan tombol di bawah ini.</p>
-            <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://pmb.untirta.ac.id/pascasarjana-2024/" target="_blank">Daftar Sekarang</a>
+            <p>Untuk melakukan pendaftaran, silahkan tekan link berikut.</p>
+            <a className="text-blue-800 hover:text-black underline hover:no-underline" href="https://penerimaan.untirta.ac.id" target="_blank">Daftar Sekarang</a>
 
             {/* <p className="mb-2 font-bold">Pengumuman Hasil Seleksi:</p>
 

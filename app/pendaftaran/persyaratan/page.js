@@ -67,14 +67,14 @@ export default function Home() {
               sebagai berikut:
             </p>
             <ul className="list-decimal pl-10 my-2">
-              <li>Mengisi curriculum vitae (download)</li>
+              <li>Mengisi curriculum vitae <a href="/formcv.doc" className="cursor-pointer underline text-blue-700 hover:text-black" download={"formcv.doc"}>(download)</a></li>
               <li>Copy Ijazah S1.</li>
               <li>Copy Transkrip S1.</li>
-              <li>Surat Keterangan Pengalaman Kerja dari Instansi/ Perusahaan khusu untuk program RPL. </li>
+              <li>Surat Keterangan Pengalaman Kerja dari Instansi/ Perusahaan khusu untuk program RPL. (Format Bebas) </li>
               <li>Copy KTP.</li>
               <li>Pas Foto terbaru.</li>
-              <li>Surat pernyataan keaslian dokumen. (download)</li>
-              <li>Surat pernyataan kesangupan pembiayaan. (download)</li>
+              <li>Surat pernyataan keaslian dokumen. <a href="/pernyataankeaslian.docx" className="cursor-pointer underline text-blue-700 hover:text-black" download={"pernyataankeaslian.docx"}>(download)</a></li>
+              <li>Surat pernyataan kesangupan pembiayaan. <a href="/pernyataankesanggupan.docx" className="cursor-pointer underline text-blue-700 hover:text-black" download={"pernyataankesanggupan.docx"}>(download)</a></li>
 
             </ul>
           </section>

@@ -34,7 +34,7 @@ export default function Home() {
               Persyaratan Pendaftaran
             </h1>
 
-            <p class="mb-2">
+            <p className="mb-2">
               Peminat Program Profesi Insinyur Universitas Sultan Ageng Tirtayasa (Untirta) wajib memenuhi persyaratan sebagai berikut
               :
             </p>

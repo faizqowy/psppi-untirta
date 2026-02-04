@@ -52,8 +52,8 @@ export default function Home() {
             </ul>
 
             <ul className="my-4">
-              <li>Contact Person : Dr. Eng. Ir. Teguh Firmansyah, M.T., IPM.</li>
-              <li>No. HP/WA : 081321661551</li>
+              <li>Contact Person : Ir. Dedy Triawan Suprayogi, ST., M.Eng, Ph.D., C.Eng, IPM</li>
+              <li>No. HP/WA : 085271221785</li>
             </ul>
           </section>
           <Footer />

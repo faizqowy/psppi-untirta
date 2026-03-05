@@ -26,7 +26,7 @@ const Footer = () => {
       <div>
         <Image src="/images/untirtalogo.jpg" alt="Logo UNTIRTA" width={80} height={80} style={logoStyle} />
         <div>
-          <strong>Copyright © 2024 Prodi Program Profesi Insinyur UNTIRTA</strong>
+          <strong>Copyright © 2026 Prodi Program Profesi Insinyur UNTIRTA</strong>
         </div>
         <div>
           <a href="#" style={linkStyle}>

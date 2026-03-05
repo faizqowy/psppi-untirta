@@ -37,17 +37,17 @@ export default function Home() {
                 <tr>
                   <td className="border px-4 py-2">Periode Pendaftaran</td>
                   <td className="border px-4 py-2 text-center"></td>
-                  <td className="border px-4 py-2 text-center">1 Juli - 25 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">1 Juli - 25 Juli 2026</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Seleksi</td>
                   <td className="border px-4 py-2 text-center">Sabtu</td>
-                  <td className="border px-4 py-2 text-center">27 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">27 Juli 2026</td>
                 </tr>
                 <tr>
                   <td className="border px-4 py-2">Hasil Seleksi</td>
                   <td className="border px-4 py-2 text-center">Rabu</td>
-                  <td className="border px-4 py-2 text-center">31 Juli 2024</td>
+                  <td className="border px-4 py-2 text-center">31 Juli 2026</td>
                 </tr>
               </tbody>
             </table>

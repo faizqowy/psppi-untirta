@@ -76,7 +76,7 @@ export default function Home() {
                       <div className="mt-5">
                         <div className="flex">
                           <FaClock className="mt-[2px] mr-2" />
-                          <p className="text-sm mr-7">12 February 2024</p>
+                          <p className="text-sm mr-7">12 February 2026</p>
                           <FaFolderOpen className="mt-[2px] mr-2" />
                           <p className="text-sm">
                             <a href="#" className="text-blue-950">
